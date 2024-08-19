@@ -11,8 +11,20 @@
       value: <a href="https://orcid.org/0000-0002-1207-2752">0000-0002-1207-2752</a>
     - name: Github
       value: <a href="https://github.com/seokhyung-lee">seokhyung-lee</a>
+    - name: Nationality
+      value: Korean
     - name: Languages
       value: Korean, English
+
+- title: Academic Interests
+  type: nested_list
+  contents:
+    - title: Quantum information and computation
+      items:
+        - Quantum error correction
+        - Photonic quantum computing
+        - Measurement-based/fusion-based quantum computing
+        - Two-dimensional color codes
 
 - title: Employment
   type: time_table
@@ -38,13 +50,3 @@
     - title: Bachelor in Physics
       institution: <a href="https://www.snu.ac.kr">Seoul National University</a>, Seoul, Republic of Korea
       year: 2013 - 2017
-
-- title: Academic Interests
-  type: nested_list
-  contents:
-    - title: Quantum information and computation
-      items:
-        - Quantum error correction
-        - Photonic quantum computing
-        - Measurement-based/fusion-based quantum computing
-        - Two-dimensional color codes
