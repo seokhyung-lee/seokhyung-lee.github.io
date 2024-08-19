@@ -17,24 +17,24 @@
   contents:
     - title: Postdoctoral associate
       institution: University of Sydney, Sydney, Australia
-      year: Mar 2023 - Present
+      year: 2023 - Present
       description:
-        - Centre for Engineered Quantum Systems, School of Physics (https://quantum.sydney.edu.au)
-        - "PI: Prof. Stephen D. Bartlett"
+        - <a href="https://quantum.sydney.edu.au">Centre for Engineered Quantum Systems</a>, School of Physics
+        - "Principal Investigator: Prof. Stephen D. Bartlett"
         
 - title: Education
   type: time_table
   contents:
     - title: PhD in Physics
       institution: Seoul National University, Seoul, Republic of Korea
-      year: Mar 2017 - Feb 2023
+      year: 2017 - 2023
       description:
-        - Center for Macroscopic Quantum Control, Department of Physics and Astronomy (http://cmqc.snu.ac.kr)
+        - <a href="http://cmqc.snu.ac.kr">Center for Macroscopic Quantum Control</a>, Department of Physics and Astronomy
         - "Supervisor: Prof. Hyunseok Jeong"
         - "Dissertation: Universal Resource-efficient Topological Measurement-based Quantum Computing"
     - title: Barchelor in Physics
       institution: Seoul National University, Seoul, Republic of Korea
-      year: Mar 2013 - Feb 2017
+      year: 2013 - 2017
 
 - title: Academic Interests
   type: nested_list
