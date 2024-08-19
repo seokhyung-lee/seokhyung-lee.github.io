@@ -2,7 +2,7 @@
 layout: page
 permalink: /publications/
 title: Publications
-description: <a href="https://scholar.google.co.kr/citations?user=NURGJAwAAAAJ">Google Scholar</a>
+description: Peer-reviewed publications and arxiv preprints.
 nav: true
 nav_order: 1
 ---
