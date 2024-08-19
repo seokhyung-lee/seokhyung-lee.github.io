@@ -12,7 +12,7 @@
   type: time_table
   contents:
     - title: Postdoctoral associate
-      institution: <a href="https://www.sydney.edu.au">University of Sydney</a>, Sydney, Australia
+      institution: University of Sydney, Sydney, Australia
       year: 2023 - Present
       description:
         - <a href="https://quantum.sydney.edu.au">Quantum Theory Group</a>, School of Physics
@@ -23,14 +23,14 @@
   type: time_table
   contents:
     - title: PhD in Physics
-      institution: <a href="https://www.snu.ac.kr">Seoul National University</a>, Seoul, Republic of Korea
+      institution: Seoul National University, Seoul, Republic of Korea
       year: 2017 - 2023
       description:
         - <a href="http://cmqc.snu.ac.kr">Center for Macroscopic Quantum Control</a>, Department of Physics and Astronomy
         - "<b>Advisor</b>: Prof. <a href='https://physics.snu.ac.kr/hjeong/'>Hyunseok Jeong</a>"
         - "<b>Dissertation</b>: <a href='https://s-space.snu.ac.kr/handle/10371/194330'>Universal Resource-efficient Topological Measurement-based Quantum Computing</a>"
     - title: Bachelor in Physics
-      institution: <a href="https://www.snu.ac.kr">Seoul National University</a>, Seoul, Republic of Korea
+      institution: Seoul National University, Seoul, Republic of Korea
       year: 2013 - 2017
 
 - title: Academic Interests
