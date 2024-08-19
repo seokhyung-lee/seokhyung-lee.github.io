@@ -1,6 +1,6 @@
 ---
 layout: about
-title: About
+title: about
 permalink: /
 subtitle: "<em>Theoretical quantum physicist</em>"
 
