@@ -1,25 +1,14 @@
 {
   "basics": {
-    "name": "Albert Einstein",
-    "label": "Scientist",
+    "name": "Seok-Hyung Lee (이석형)",
+    "label": "Quantum theory physicist",
     "image": "",
-    "email": "albert@einstein.de",
-    "phone": "(912) 123-4567",
-    "url": "https://alshedivat.github.io/al-folio/",
-    "summary": "A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time",
-    "location": {
-      "address": "2712 Broadway St",
-      "postalCode": "CA 94115",
-      "city": "San Francisco",
-      "countryCode": "US",
-      "region": "California"
-    },
-    "profiles": [
-      {
-        "network": "Twitter",
-        "username": "AlbertEinstein",
-        "url": "https://twitter.com/AlbertEinstein"
-      }
+    "email": "seokhyung.lee@sydney.edu.au",
+    "phone": "",
+    "url": "https://seokhyung-lee.github.io",
+    "summary": "A Korean theoretical physicist specialising in quantum information and computing, with a focus on quantum error correction.",
+    "location": "",
+    "profiles": ""
     ]
   },
   "work": [
