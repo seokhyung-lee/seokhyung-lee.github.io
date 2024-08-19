@@ -2,24 +2,20 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: Theoretical quantum physicist
 
 profile:
   align: right
-  image: prof_pic.jpg
-  image_circular: false # crops the image to make it circular
-  more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+  image: prof_pic.jpeg
+  image_circular: true # crops the image to make it circular
 
-news: true # includes a list of news items
-selected_papers: true # includes a list of papers marked as "selected={true}"
+news: false # includes a list of news items
+selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+My name is **Seok-Hyung Lee** (**이석형** in Korean) and I'm a theoretical physicist working in the fields of **quantum information and computation**.
+Specifically, I'm interested in quantum error correction and photonic quantum computing.
+I'm currently a postdoctoral associate in the [_Quantum Theory Group_](https://quantum.sydney.edu.au) at the [**University of Sydney**](https://www.google.co.kr/search?q=university+of+sydney) (Australia), working with Prof. [Stephen D. Bartlett](https://www.sydney.edu.au/science/about/our-people/academic-staff/stephen-bartlett.html) on quantum error correction with color codes.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
-
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+From 2017 to 2023, I was a PhD student in the [_Center for Macroscopic Quantum Control_](http://cmqc.snu.ac.kr) at the [**Seoul National University**](https://www.snu.ac.kr) (Republic of Korea), supervised by Prof. [Hyunseok Jeong](https://physics.snu.ac.kr/hjeong/). I mainly studied measurement-based quantum computing in photonic platforms and received my PhD in Physics with a dissertation ["Universal Resource-efficient Topological Measurement-based Quantum Computing"](https://s-space.snu.ac.kr/handle/10371/194330). In 2017, I completed my undergraduate in Physics at the [**Seoul National University**](https://www.snu.ac.kr) (Republic of Korea).
