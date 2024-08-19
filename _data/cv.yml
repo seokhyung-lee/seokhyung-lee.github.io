@@ -2,11 +2,7 @@
   type: map
   contents:
     - name: Full Name
-      value: Seok-Hyung Lee
-    - name: Korean Name
-      value: 이석형
-    - name: Date of Birth
-      value: 17st January 1996
+      value: Seok-Hyung Lee (이석형 in Korean)
     - name: Description
       value: A theoretical physicist specializing in quantum information and computing, with a focus on quantum error correction.
     - name: Languages
