@@ -14,10 +14,10 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-My name is **Seok-Hyung Lee** (**이석형** in Korean) and I'm a theoretical physicist working in the fields of **quantum information and computation**.
-Specifically, I'm interested in quantum error correction and photonic quantum computing.
-I'm currently a postdoctoral associate in the _[Quantum Theory Group](https://quantum.sydney.edu.au)_ at the **[University of Sydney](https://www.google.co.kr/search?q=university+of+sydney)** (Australia), working with Prof. [Stephen D. Bartlett](https://www.sydney.edu.au/science/about/our-people/academic-staff/stephen-bartlett.html) on quantum error correction with color codes.
+My name is **Seok-Hyung Lee** (**이석형** in Korean), and I am a theoretical physicist specializing in **quantum information and computation**. 
+My primary research interests lie in quantum error correction and photonic quantum computing. 
+I am currently a postdoctoral associate in the _[Quantum Theory Group](https://quantum.sydney.edu.au)_ at the **[University of Sydney](https://www.google.co.kr/search?q=university+of+sydney)** (Australia), working with Prof. [Stephen D. Bartlett](https://www.sydney.edu.au/science/about/our-people/academic-staff/stephen-bartlett.html) on quantum error correction using color codes.
 
-From 2017 to 2023, I was a PhD student in the _[Center for Macroscopic Quantum Control](http://cmqc.snu.ac.kr)_ at the **[Seoul National University](https://www.snu.ac.kr)** (Republic of Korea), supervised by Prof. [Hyunseok Jeong](https://physics.snu.ac.kr/hjeong/). 
-I mainly studied measurement-based quantum computing in photonic platforms and received my PhD in Physics with a dissertation ["Universal Resource-efficient Topological Measurement-based Quantum Computing"](https://s-space.snu.ac.kr/handle/10371/194330). 
-In 2017, I completed my undergraduate in Physics at the **[Seoul National University](https://www.snu.ac.kr)** (Republic of Korea).
+From 2017 to 2023, I pursued my PhD at the _[Center for Macroscopic Quantum Control](http://cmqc.snu.ac.kr)_ at **[Seoul National University](https://www.snu.ac.kr)** (Republic of Korea) under the supervision of Prof. [Hyunseok Jeong](https://physics.snu.ac.kr/hjeong/). 
+My doctoral research focused on measurement-based quantum computing in photonic platforms, culminating in my dissertation titled ["Universal Resource-efficient Topological Measurement-based Quantum Computing"](https://s-space.snu.ac.kr/handle/10371/194330). 
+I completed my undergraduate studies in Physics at **[Seoul National University](https://www.snu.ac.kr)** in 2017.
