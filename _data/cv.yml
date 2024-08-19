@@ -2,96 +2,46 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
+      value: Seok-Hyung Lee
+    - name: Korean Name
+      value: 이석형
     - name: Date of Birth
-      value: 14th March 1879
+      value: 17st January 1996
+    - name: Description
+      value: A Korean theoretical physicist specializing in quantum information and computing, with a focus on quantum error correction.
     - name: Languages
-      value: English, German
-
+      value: Korean, English
+      
+- title: Employment
+  type: time_table
+  contents:
+    - title: Postdoctoral associate
+      institution: University of Sydney, Sydney, Australia
+      year: Mar 2023 - Present
+      description:
+        - Centre for Engineered Quantum Systems, School of Physics (https://quantum.sydney.edu.au)
+        - "PI: Prof. Stephen D. Bartlett"
+        
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: PhD in Physics
+      institution: Seoul National University, Seoul, Republic of Korea
+      year: Mar 2017 - Feb 2023
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
-      description:
-        - Description 1.
-        - Description 2.
-
-- title: Experience
-  type: time_table
-  contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
-      description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
-      description:
-        - Description 1.
-        - Description 2.
-
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
-      description:
-
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
-
-- title: Open Source Projects
-  type: time_table
-  contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
-
-- title: Honors and Awards
-  type: time_table
-  contents:
-    - year: 1921
-      items:
-        - Nobel Prize in Physics
-        - Matteucci Medal
-    - year: 2029
-      items:
-        - Max Planck Medal
+        - Center for Macroscopic Quantum Control, Department of Physics and Astronomy (http://cmqc.snu.ac.kr)
+        - "Supervisor: Prof. Hyunseok Jeong"
+        - "Dissertation: Universal Resource-efficient Topological Measurement-based Quantum Computing"
+    - title: Barchelor in Physics
+      institution: Seoul National University, Seoul, Republic of Korea
+      year: Mar 2013 - Feb 2017
 
 - title: Academic Interests
   type: nested_list
   contents:
-    - title: Topic 1.
+    - title: Quantum information and computation
       items:
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
-      items:
-        - Description 1.
-        - Description 2.
-
-- title: Other Interests
-  type: list
-  contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+        - Quantum error correction
+        - Photonic quantum computing
+        - Measurement-based/fusion-based quantum computing
+        - Two-dimensional color codes
