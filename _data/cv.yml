@@ -3,8 +3,14 @@
   contents:
     - name: Full Name
       value: Seok-Hyung Lee (이석형 in Korean)
-    - name: Description
-      value: A theoretical physicist specializing in quantum information and computing, with a focus on quantum error correction.
+    - name: E-mail
+      value: seokhyung.lee(at)sydney.edu.au
+    - name: Google Scholar
+      value: <a href="https://scholar.google.com/citations?user=NURGJAwAAAAJ">Link</a>
+    - name: ORCID
+      value: <a href="https://orcid.org/0000-0002-1207-2752">0000-0002-1207-2752</a>
+    - name: Github
+      value: <a href="https://github.com/seokhyung-lee">seokhyung-lee</a>
     - name: Languages
       value: Korean, English
 
@@ -12,7 +18,7 @@
   type: time_table
   contents:
     - title: Postdoctoral associate
-      institution: University of Sydney, Sydney, Australia
+      institution: <a href="https://www.sydney.edu.au">University of Sydney</a>, Sydney, Australia
       year: 2023 - Present
       description:
         - <a href="https://quantum.sydney.edu.au">Quantum Theory Group</a>, School of Physics
@@ -23,14 +29,14 @@
   type: time_table
   contents:
     - title: PhD in Physics
-      institution: Seoul National University, Seoul, Republic of Korea
+      institution: <a href="https://www.snu.ac.kr">Seoul National University</a>, Seoul, Republic of Korea
       year: 2017 - 2023
       description:
         - <a href="http://cmqc.snu.ac.kr">Center for Macroscopic Quantum Control</a>, Department of Physics and Astronomy
         - "<b>Advisor</b>: Prof. <a href='https://physics.snu.ac.kr/hjeong/'>Hyunseok Jeong</a>"
         - "<b>Dissertation</b>: <a href='https://s-space.snu.ac.kr/handle/10371/194330'>Universal Resource-efficient Topological Measurement-based Quantum Computing</a>"
     - title: Bachelor in Physics
-      institution: Seoul National University, Seoul, Republic of Korea
+      institution: <a href="https://www.snu.ac.kr">Seoul National University</a>, Seoul, Republic of Korea
       year: 2013 - 2017
 
 - title: Academic Interests
