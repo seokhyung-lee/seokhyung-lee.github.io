@@ -20,7 +20,7 @@
       year: 2023 - Present
       description:
         - <a href="https://quantum.sydney.edu.au">Centre for Engineered Quantum Systems</a>, School of Physics
-        - "Principal Investigator: Prof. Stephen D. Bartlett"
+        - "<b>Principal Investigator</b>: Prof. Stephen D. Bartlett"
         
 - title: Education
   type: time_table
@@ -30,8 +30,8 @@
       year: 2017 - 2023
       description:
         - <a href="http://cmqc.snu.ac.kr">Center for Macroscopic Quantum Control</a>, Department of Physics and Astronomy
-        - "Supervisor: Prof. Hyunseok Jeong"
-        - "Dissertation: Universal Resource-efficient Topological Measurement-based Quantum Computing"
+        - "<b>Supervisor</b>: Prof. Hyunseok Jeong"
+        - "<b>Dissertation</b>: Universal Resource-efficient Topological Measurement-based Quantum Computing"
     - title: Barchelor in Physics
       institution: Seoul National University, Seoul, Republic of Korea
       year: 2013 - 2017
