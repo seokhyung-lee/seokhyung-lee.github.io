@@ -5,3 +5,19 @@
 "bartlett":
   - firstname: ["Stephen D.", "Stephen", "S. D.", "S."]
     url: https://www.sydney.edu.au/science/about/our-people/academic-staff/stephen-bartlett.html
+
+"lee":
+  - firstname: ["Seung-Woo", "S.-W."]
+    url: https://quantum.kist.re.kr/bbs/board.php?bo_table=sub3_1&wr_id=6
+
+"teo":
+  - firstname: ["Yong Siah", "Y. S."]
+    url: https://www.linkedin.com/in/yong-siah-teo-a2807919
+
+"srikrishna":
+  - firstname: ["omkar", "O."]
+    url: https://www.linkedin.com/in/omkar-srikrishna-91b23761
+
+"jiang":
+  - firstname: ["Liang", "L."]
+    url: https://pme.uchicago.edu/faculty/liang-jiang
