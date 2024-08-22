@@ -8,7 +8,7 @@ middle_name:
 last_name: Lee
 email: seokhyung.lee@sydney.edu.au
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  Personal Homepage for Seok-Hyung Lee
+  Personal Website for Seok-Hyung Lee
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
@@ -308,6 +308,7 @@ display_categories: ["external-services"] # these categories will be displayed o
 scholar:
   last_name: [Lee]
   first_name: [Seok-Hyung, S.-H.]
+  displayname: "SHL"
 
   style: apa
   locale: en
