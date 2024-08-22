@@ -72,24 +72,24 @@
         {% assign author_is_self = false %}
         {%- assign author_last_name = author.last | regex_replace: '[*∗†‡§¶‖&^]', '' -%}
         {%- assign author_last_html = author.last | regex_replace: '([*∗†‡§¶‖&^]+)', '<sup>\1</sup>' -%}
-        {% if site.scholar.last_name contains author_last_name %}
-          {% if site.scholar.first_name contains author.first %}
-            {% assign author_is_self = true %}
-          {% endif %}
+        {%- if site.scholar.last_name contains author_last_name -%}
+          {%- if site.scholar.first_name contains author.first -%}
+            {%- assign author_is_self = true -%}
+          {%- endif -%}
         {%- endif -%}
-        {% assign coauthor_url = null %}
+        {%- assign coauthor_url = null -%}
         {%- assign clean_last_name = author_last_name | downcase | remove_accents -%}
-        {% if site.data.coauthors[clean_last_name] %}
+        {%- if site.data.coauthors[clean_last_name] -%}
           {%- for coauthor in site.data.coauthors[clean_last_name] -%}
-            {% if coauthor.firstname contains author.first %}
+            {%- if coauthor.firstname contains author.first -%}
               {%- assign coauthor_url = coauthor.url -%}
-              {% break %}
-            {% endif %}
-          {% endfor %}
+              {%- break -%}
+            {%- endif -%}
+          {%- endfor -%}
         {%- endif -%}
 
         {%- if forloop.length > 1 -%}
-          {%- if forloop.first == false -%},&nbsp;{% endif -%}
+          {%- if forloop.first == false and author_array_size > 2 -%},&nbsp;{% endif -%}
           {% if forloop.last and author_array_limit == author_array_size -%}and&nbsp;{% endif -%}
         {%- endif -%}
         {%- if author_is_self -%}
