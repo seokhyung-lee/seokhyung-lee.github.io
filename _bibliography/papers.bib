@@ -11,6 +11,7 @@
   doi = {10.1103/PRXQuantum.5.030322},
   bibtex_show = {true},
   google_scholar_id = {uWiczbcajpAC},
+  altmetric = {true},
   abstract = {Hybridizing different degrees of freedom or physical platforms potentially offers various advantages in building scalable quantum architectures. Here, we introduce a fault-tolerant hybrid quantum computation by building on the advantages of both discrete-variable (DV) and continuous-variable (CV) systems. In particular, we define a CV-DV hybrid qubit with a bosonic cat code and a single photon, which is implementable in current photonic platforms. Due to the cat code encoded in the CV part, the predominant loss errors are readily correctable without multiqubit encoding, while the logical basis is inherently orthogonal due to the DV part. We design fault-tolerant architectures by concatenating hybrid qubits and an outer DV quantum error-correction code such as a topological code, exploring their potential merit in developing scalable quantum computation. We demonstrate by numerical simulations that our scheme is at least an order of magnitude more resource efficient compared to all previous proposals in photonic platforms, allowing us to achieve a record-high loss threshold among existing CV and hybrid approaches. We discuss the realization of our approach not only in all-photonic platforms but also in other hybrid platforms including superconducting and trapped-ion systems, which allows us to find various efficient routes toward fault-tolerant quantum computing.},
 }
 
@@ -34,6 +35,7 @@
   selected = {true},
   prefix = {Preprint},
   slides = {lee2024color_slides.pdf},
+  altmetric = {true},
   abstract = {Two-dimensional color codes are a promising candidate for fault-tolerant quantum computing, as they have high encoding rates, transversal implementation of logical Clifford gates, and high feasibility of magic state constructions. However, decoding color codes presents a significant challenge due to their structure, where elementary errors violate three checks instead of just two (a key feature in surface code decoding), and the complexity in extracting syndrome is greater. We introduce an efficient color-code decoder that tackles these issues by combining two matching decoders for each color, generalized to handle circuit-level noise by employing detector error models. We provide comprehensive analyses of the decoder, covering its threshold and sub-threshold scaling both for bit-flip noise with ideal measurements and for circuit-level noise. Our simulations reveal that this decoding strategy nearly reaches the best possible scaling of logical failure (p_fail \~ p^{d/2}) for both noise models, where p is the noise strength, in the regime of interest for fault-tolerant quantum computing. While its noise thresholds are comparable with other matching-based decoders for color codes (8.2% for bit-flip noise and 0.46% for circuit-level noise), the scaling of logical failure rates below threshold significantly outperforms the best matching-based decoders.},
 }
 
@@ -55,6 +57,7 @@
   preview = {lee2023graphtheoretical.png},
   selected = {true},
   poster = {lee2023graphtheoretical_poster.pdf},
+  altmetric = {true},
   abstract = {Graph states are versatile resources for various quantum information processing tasks, including measurement-based quantum computing and quantum repeaters. Although the type-II fusion gate enables all-optical generation of graph states by combining small graph states, its non-deterministic nature hinders the efficient generation of large graph states. In this work, we present a graph-theoretical strategy to effectively optimize fusion-based generation of any given graph state, along with a Python package OptGraphState. Our strategy comprises three stages: simplifying the target graph state, building a fusion network, and determining the order of fusions. Utilizing this proposed method, we evaluate the resource overheads of random graphs and various well-known graphs. Additionally, we investigate the success probability of graph state generation given a restricted number of available resource states. We expect that our strategy and software will assist researchers in developing and assessing experimentally viable schemes that use photonic graph states.},
 }
 
@@ -75,6 +78,7 @@
   preview = {lee2023parityencodingbased.png},
   selected = {true},
   poster = {lee2023parityencodingbased_poster.pdf},
+  altmetric = {true},
   abstract = {Measurement-based quantum computing (MBQC) in linear optical systems is promising for near-future quantum computing architecture. However, the nondeterministic nature of entangling operations and photon losses hinder the large-scale generation of graph states and introduce logical errors. In this work, we propose a linear optical topological MBQC protocol employing multiphoton qubits based on the parity encoding, which turns out to be highly photon-loss tolerant and resource-efficient even under the effects of nonideal entangling operations that unavoidably corrupt nearby qubits. For the realistic error analysis, we introduce a Bayesian methodology, in conjunction with the stabilizer formalism, to track errors caused by such detrimental effects. We additionally suggest a graph-theoretical optimization scheme for the process of constructing an arbitrary graph state, which greatly reduces its resource overhead. Notably, we show that our protocol is advantageous over several other existing approaches in terms of the fault-tolerance and resource overhead.},
 }
 
@@ -105,6 +109,7 @@
   bibtex_show = {true},
   google_scholar_id = {uc_IGeMz5qoC},
   arxiv = {2210.14753},
+  altmetric = {true},
   abstract = {Virtual distillation is an error-mitigation technique that reduces quantum-computation errors without assuming the noise type. In scenarios where the user of a quantum circuit is required to additionally employ peripherals, such as delay lines, that introduce excess noise, we find that the error-mitigation performance can be improved if the peripheral, whenever possible, is split across the entire circuit, that is, when the noise channel is uniformly distributed in layers within the circuit. We show that under the multiqubit loss and Pauli noise channels, respectively, for a given overall error rate, the average mitigation performance improves monotonically as the noisy peripheral is split (diluted) into more layers, with each layer sandwiched between subcircuits that are sufficiently deep to behave as 2-designs. For both channels, analytical and numerical evidence show that second-order distillation is generally sufficient for (near-)optimal mitigation. We propose an application of these findings in designing a quantum-computing cluster that houses realistic noisy intermediate-scale quantum circuits that may be shallow in depth, where measurement detectors are limited and delay lines are necessary to queue output qubits from multiple circuits.},
 }
 
@@ -122,6 +127,7 @@
   bibtex_show = {true},
   google_scholar_id = {9Nmd_mFXekcC},
   arxiv = {2109.12280},
+  altmetric = {true},
   abstract = {Linear optical quantum computing is beset by the lack of deterministic entangling operations besides photon loss. Motivated by advancements at the experimental front in deterministic generation of various kinds of multiphoton entangled states, we propose an architecture for linear-optical quantum computing that harnesses the availability of three-photon Greenberger-Horne-Zeilinger (GHZ) states. Our architecture and its subvariants use polarized photons in GHZ states, polarization beam splitters, delay lines, optical switches, and on-off detectors. We concatenate the topological quantum error-correction code with three-qubit repetition codes and estimate that our architecture can tolerate a remarkably high photon-loss rate of 11.5%; this makes a drastic change that is at least an order higher than those of known proposals. Furthermore, considering three-photon GHZ states as resources, we estimate the resource overheads to perform gate operations with an accuracy of 10^{-6} (10^{-15}) to be 2.07 × 10^6 (5.03 × 10^7). Compared to other all-photonic schemes, our architecture is also resource efficient. In addition, the resource overhead can be even further improved if larger GHZ states are available. Given its striking enhancement in the photon-loss threshold and the recent progress in generating multiphoton entanglement, our scheme moves scalable photonic quantum computing a step closer to reality.},
 }
 
@@ -140,6 +146,7 @@
   arxiv = {2106.07530},
   preview = {lee2022universal.png},
   poster = {lee2022universal_poster.pdf},
+  altmetric = {true},
   abstract = {Topological measurement-based quantum computation (MBQC) enables one to carry out universal fault-tolerant quantum computation via single-qubit measurements with a family of large entangled states called cluster states as resources. Raussendorf's three-dimensional cluster states (RTCSs) based on the surface codes are mainly considered for topological MBQC. In such schemes, however, the logical Hadamard, phase (Z^{1/2}), and T (Z^{1/4}) gates which are essential for building up arbitrary logical gates are not implemented natively without using state distillation or lattice dislocations, to the best of our knowledge. In particular, state distillation generally consumes many ancillary logical qubits; thus it is a severe obstacle against practical quantum computing. To solve this problem, we suggest an MBQC scheme via a family of cluster states called color-code-based cluster states (CCCSs) based on the two-dimensional color codes instead of the surface codes. We define logical qubits, construct elementary logical gates, and describe error correction schemes. We show that all logical Clifford gates generated by the cnot, Hadamard, and phase gates can be implemented natively in a fault-tolerant manner, although the T gate still requires state distillation to be fault-tolerant. The error thresholds of MBQC via CCCSs for logical-Z errors are calculated to be 2.7%–2.8%, which are comparable to the values for RTCSs, assuming a simple error model where physical qubits have nontrivial errors independently with the same probability. We analyze and compare the resource overheads of both the schemes. In particular, we show that the number of physical qubits required for implementing a phase gate with CCCSs is at least about 26 times smaller than with RTCSs using state distillation, for the same code distance.},
 }
 
@@ -158,6 +165,7 @@
   arxiv = {2102.04071},
   preview = {lee2021losstolerant.png},
   slides = {lee2021losstolerant_slides.pdf},
+  altmetric = {true},
   abstract = {The coherent-state qubit is a promising candidate for optical quantum information processing due to its nearly deterministic nature of the Bell-state measurement (BSM). However, its nonorthogonality incurs difficulties such as the failure of the BSM. One may use a large amplitude (𝛼) for the coherent state to minimize the failure probability, but the qubit then becomes more vulnerable to dephasing by photon loss. We propose a hardware-efficient concatenated BSM (CBSM) scheme with modified parity encoding using coherent states with reasonably small amplitudes (|𝛼|⪅2), which simultaneously suppresses both failures and dephasing in the BSM procedure. We numerically show that the CBSM scheme achieves a success probability arbitrarily close to unity for appropriate values of 𝛼 and sufficiently low photon loss rates (e.g., ⪅5%). Furthermore, we verify that the quantum repeater scheme exploiting the CBSM scheme for quantum error correction enables one to carry out efficient long-range quantum communication over 1000 km. We show that the performance is comparable to those of other up-to-date methods and even exceeds them in some cases. Finally, we present methods to prepare logical qubits under modified parity encoding, and we implement elementary logical operations, which consist of several physical-level ingredients such as generation of superpositions of coherent states (SCSs) and elementary gates under the coherent-state basis. We then estimate the effects of imperfect physical-level elements on the performance of the scheme. Our work demonstrates that the encoded coherent-state qubits in free-propagating fields provide an alternative route to fault-tolerant information processing, especially to long-range quantum communication.},
 }
 
@@ -174,5 +182,6 @@
   doi = {10.1103/PhysRevA.102.012424},
   bibtex_show = {true},
   google_scholar_id = {XD-gHx7UXLsC},
+  altmetric = {true},
   abstract = {It was shown that using multiphoton qubits, a nearly deterministic Bell-state measurement can be performed with linear optics and on-off photodetectors [Phys. Rev. Lett. 114, 113603 (2015)]. However, multiphoton qubits are generally more fragile than single-photon qubits under a lossy environment. In this paper, we propose and analyze a scheme to teleport multiphoton-qubit information using hybrid entanglement with a loss-tolerant carrier qubit. We consider three candidates for the carrier qubit: a coherent-state qubit, a single-photon polarization qubit, and a vacuum-and-single-photon qubit. We find that teleportation with the vacuum-and-single-photon qubit tolerates about 10 times greater photon losses than with the multiphoton qubit of the photon number N≥4 in the high fidelity regime (F≥90%). The coherent-state qubit encoding may be even better than the vacuum-and-single-photon qubit as the carrier when its amplitude is as small as 𝛼<0.78. We further point out that the fidelity of the teleported state by our scheme is determined by loss in the carrier qubit while the success probability depends on loss only in the multiphoton qubit to be teleported. Our study implies that the hybrid architecture may complement the weaknesses of each qubit encoding.},
 }
