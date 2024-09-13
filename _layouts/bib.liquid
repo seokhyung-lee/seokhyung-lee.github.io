@@ -165,7 +165,7 @@
     {% elsif thesis contains entry.type %}
       {% capture entrytype %}<em>{{ entry.school }}</em>{% endcapture %}
     {% else %}
-      {% capture entrytype %}{{ entry.type }}{% endcapture %}
+      {% capture entrytype %}{{ entry.type }}{{ entry.archivePrefix }}{% endcapture %}
     {% endif %}
     {% if entry.month %}
       {% capture entrymonth %}{{ " " }}{{ entry.month | capitalize }}{% endcapture %}
