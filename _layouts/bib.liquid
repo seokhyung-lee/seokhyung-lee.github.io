@@ -158,7 +158,7 @@
     {% assign thesis = 'thesis,mastersthesis,phdthesis' | split: ',' %}
     {% if entry.type == 'article' %}
       {% capture entrytype %}<em>{{ entry.journal }}</em>{% endcapture %}
-    {% elsif entry.type == 'misc' and entry.archivePrefix == 'arXiv' and entry.eprint %}
+    {% elsif entry.type == 'misc' and entry.archivePrefix == 'arXiv' %}
       {% capture entrytype %}<em>arXiv:{{ entry.eprint }}</em>{% endcapture %}
     {% elsif proceedings contains entry.type %}
       {% capture entrytype %}<em>In {{ entry.booktitle }}</em>{% endcapture %}
