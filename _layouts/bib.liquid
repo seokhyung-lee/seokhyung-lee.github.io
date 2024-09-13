@@ -167,12 +167,6 @@
     {% else %}
       {% capture entrytype %}{{ entry.type }}{% endcapture %}
     {% endif %}
-    {% comment %}{% if entry.month %}{% endcomment %}
-      {% comment %}{% capture entrymonth %}{{ " " }}{{ entry.month | capitalize }}{% endcapture %}{% endcomment %}
-    {% comment %}{% endif %}{% endcomment %}
-    {% comment %}{% if entry.year %}{% endcomment %}
-      {% comment %}{% capture entryyear %}{{ " " }}({{ entry.year }}){% endcapture %}{% endcomment %}
-    {% comment %}{% endif %}{% endcomment %}
     {% if entry.location %}
       {% capture entrytype %}{{ entrytype }}{{ ", " }}{{ entry.location }}{% endcapture %}
     {% endif -%}
