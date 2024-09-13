@@ -157,13 +157,13 @@
     {% assign proceedings = 'inproceedings,incollection' | split: ',' %}
     {% assign thesis = 'thesis,mastersthesis,phdthesis' | split: ',' %}
     {% if entry.type == 'article' %}
-      {% capture entrytype %}<em>{{ entry.journal }}</em> <b>{{ entry.volume }}</b>, {{ entry.pages }} ({{ entry.year }}){% endcapture %}
+      {% capture entrytype %}{{ entry.journal }} <b>{{ entry.volume }}</b>, {{ entry.pages }} ({{ entry.year }}){% endcapture %}
     {% elsif entry.type == 'misc' and entry.archiveprefix == 'arXiv' and entry.eprint %}
-      {% capture entrytype %}<em>arXiv:{{ entry.eprint }} ({{ entry.year }})</em>{% endcapture %}
+      {% capture entrytype %}arXiv:{{ entry.eprint }} ({{ entry.year }}){% endcapture %}
     {% elsif proceedings contains entry.type %}
       {% capture entrytype %}In <em>{{ entry.booktitle }}</em> ({{ entry.publisher }}, {{ entry.year }}) p. {{ entry.pages }}{% endcapture %}
     {% elsif thesis contains entry.type %}
-      {% capture entrytype %}<em>{{ entry.school }} ({{ entry.year }})</em>{% endcapture %}
+      {% capture entrytype %}{{ entry.school }} ({{ entry.year }}){% endcapture %}
     {% else %}
       {% capture entrytype %}{{ entry.type }}{% endcapture %}
     {% endif %}
