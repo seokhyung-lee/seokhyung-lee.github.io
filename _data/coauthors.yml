@@ -35,3 +35,15 @@
 "kang":
   - firstname: ['Nuri', 'N.']
     url: https://scholar.google.com/citations?user=6ThD_ZkAAAAJ
+
+"thomsen":
+  - firstname: ['Felix', 'F.']
+    url: https://felixthomsen.github.io
+
+"fazio":
+  - firstname: ['Nicholas', 'N.']
+    url: https://equs.org/users/nicholas-fazio
+
+"brown":
+  - firstname: ['Benjamin J.', 'B. J.']
+    url: https://nbia.nbi.ku.dk/members/postdoctoral-fellows/benjamin-brown/
