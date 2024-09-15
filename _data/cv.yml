@@ -46,7 +46,10 @@
       description:
         - <a href="http://cmqc.snu.ac.kr">Center for Macroscopic Quantum Control</a>, Department of Physics and Astronomy
         - "<b>Advisor</b>: Prof. <a href='https://physics.snu.ac.kr/hjeong/'>Hyunseok Jeong</a>"
-        - "<b>Dissertation</b>: <a href='https://s-space.snu.ac.kr/handle/10371/194330'>Universal Resource-efficient Topological Measurement-based Quantum Computing</a>"
+        - "<b>Thesis</b>: <a href='https://s-space.snu.ac.kr/handle/10371/194330'>Universal Resource-efficient Topological Measurement-based Quantum Computing</a>"
+        - Awarded the BK Excellent Thesis Award
     - title: Bachelor in Physics
       institution: <a href="https://www.snu.ac.kr">Seoul National University</a>, Seoul, Republic of Korea
       year: 2013 - 2017
+      description:
+        - Graduated with Honors (3.89/4.30)
