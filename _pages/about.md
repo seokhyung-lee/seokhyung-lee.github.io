@@ -22,4 +22,4 @@ I began this position in Mar 2023.
 
 Previously, from Mar 2017 to Feb 2023, I pursued my PhD at the _[Center for Macroscopic Quantum Control](http://cmqc.snu.ac.kr)_ at **[Seoul National University](https://www.snu.ac.kr)** (Republic of Korea) under the guidance of Prof. [Hyunseok Jeong](https://physics.snu.ac.kr/hjeong/). 
 My doctoral research focused on measurement-based quantum computing in photonic platforms, culminating in my dissertation titled ["Universal Resource-efficient Topological Measurement-based Quantum Computing"](https://s-space.snu.ac.kr/handle/10371/194330). 
-From Mar 2013 to Feb 2017, I completed my undergraduate studies in Physics at the same university. 
+From Mar 2013 to Feb 2017, I completed my undergraduate studies in Physics at the same university.  
