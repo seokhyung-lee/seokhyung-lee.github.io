@@ -14,8 +14,10 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-My name is **Seok-Hyung Lee** (**이석형** in Korean), and I am a theoretical physicist specializing in quantum information and computation. 
+My name is **Seok-Hyung Lee** (**이석형** in Korean), and I am a theoretical physicist specialising in quantum information and computation. 
 My research primarily focuses on **quantum error correction** and **photonic quantum computing**.
+I aim to develop and optimise resource-efficient fault-tolerant quantum computing strategies utilising quantum error correction.
+In detail, this involves various elements such as decoding, logical operations, magic state preparation, syndrome extraction, and code construction.
 
 Currently, I am a postdoctoral associate in the _[Quantum Theory Group](https://quantum.sydney.edu.au/research/quantum-theory-group)_ at the **[University of Sydney](https://www.google.co.kr/search?q=university+of+sydney)** (Australia), working with Prof. [Stephen D. Bartlett](https://www.sydney.edu.au/science/about/our-people/academic-staff/stephen-bartlett.html) on quantum error correction using 2D color codes.
 I began this position in Mar 2023.
