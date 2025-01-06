@@ -15,7 +15,7 @@ social: true # includes social icons at the bottom of the page
 ---
 
 My name is **Seok-Hyung Lee** (**이석형** in Korean), and I am a theoretical physicist specialising in quantum information and computation. 
-My research focuses on developing and optimising **resource-efficient, fault-tolerant quantum computing strategies through quantum error correction**. 
+My research primarily focuses on developing and optimising **resource-efficient, fault-tolerant quantum computing strategies through quantum error correction**. 
 This includes areas such as decoding, logical operations, magic state preparation, syndrome extraction, and code construction. 
 I am also particularly interested in **photonic platforms**.
 
