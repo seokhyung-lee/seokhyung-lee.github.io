@@ -1,0 +1,482 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"graphi",
+				"graphicx"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					""
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"Traditional"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"PdfLaTeX"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"XeLaTeX"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"LuaLaTeX"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"Basic Builder"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"Basic Builder - PdfLaTeX"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"Basic Builder - XeLaTeX"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"Basic Builder - LuaLaTeX"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"Script Builder"
+				]
+			],
+			[
+				"Packages/LaTeXTools/LaTeX.sublime-build",
+				"PdfLaTeX"
+			]
+		],
+		[
+			[
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					""
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"Traditional Builder"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"Traditional Builder with PdfLaTeX"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"Traditional Builder with XeLaTeX"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"Traditional Builder with LuaLaTeX"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"Basic Builder"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"Basic Builder with PdfLaTeX"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"Basic Builder with XeLaTeX"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"Basic Builder with LuaLaTeX"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"Script Builder"
+				]
+			],
+			[
+				"Packages/LaTeXTools/LaTeX.sublime-build",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				]
+			],
+			[
+				"Packages/Python/Python.sublime-build",
+				""
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"push",
+				"Git: Push"
+			],
+			[
+				"com",
+				"Git: Commit"
+			],
+			[
+				"add",
+				"Git: Add All"
+			],
+			[
+				"comm",
+				"Git: Commit"
+			],
+			[
+				"git push",
+				"Git: Push"
+			],
+			[
+				"git",
+				"Git: Commit"
+			],
+			[
+				"git co",
+				"Git: Commit"
+			],
+			[
+				"git add",
+				"Git: Add All"
+			],
+			[
+				"git comm",
+				"Git: Commit"
+			],
+			[
+				"git pull",
+				"Git: Pull"
+			],
+			[
+				"git install",
+				"Package Control: Install Package"
+			],
+			[
+				"git c",
+				"Git: Commit"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"pack",
+				"Package Control: Remove Package"
+			],
+			[
+				"fold",
+				"Code Folding: Fold"
+			],
+			[
+				"latex",
+				"LaTeXTools: Show toggles"
+			],
+			[
+				"package control:",
+				"Package Control: Advanced Install Package"
+			],
+			[
+				"package",
+				"Package Control: List Packages"
+			],
+			[
+				"install p",
+				"Package Control: Install Package"
+			],
+			[
+				"package control",
+				"Package Control: Install Package"
+			],
+			[
+				"package con",
+				"Package Control: Add Repository"
+			],
+			[
+				"set syntax: lat",
+				"Set Syntax: LaTeX"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 470.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/seokhyung/Library/Mobile Documents/com~apple~CloudDocs/Work/Github Profile Page"
+	],
+	"file_history":
+	[
+		"/Users/seokhyung/Library/Mobile Documents/com~apple~CloudDocs/Work/연구 외/교수 지원/2502 고려대 컴퓨터학과/연구계획서/bibliography.bib",
+		"/Users/seokhyung/Library/Mobile Documents/com~apple~CloudDocs/Work/연구 외/교수 지원/2502 고려대 컴퓨터학과/연구계획서/main.tex",
+		"/Users/seokhyung/Library/Mobile Documents/com~apple~CloudDocs/Work/연구 외/교수 지원/2502 서울대 물리/서류/자기소개서/main.tex",
+		"/Users/seokhyung/deep-research/output.md",
+		"/Users/seokhyung/deep-research/src/ai/providers.ts",
+		"/Users/seokhyung/deep-research/.env.local",
+		"/Users/seokhyung/Library/Mobile Documents/com~apple~CloudDocs/Personal/Finance/ETF Portfolio/collect_price_data.py",
+		"/Users/seokhyung/.jupyter/jupyter_notebook_config.py",
+		"/Users/seokhyung/Library/Mobile Documents/com~apple~CloudDocs/Work/Research/USYD/25-PsiQ3DColorCode/blocks/block4.txt",
+		"/Users/seokhyung/ssh_tunnel.py",
+		"/Users/seokhyung/Downloads/World Economic Outlook (Jan 2025).pdf",
+		"/Users/seokhyung/Downloads/IOPEXPORT_BIB-3.bib",
+		"/Users/seokhyung/Library/Mobile Documents/com~apple~CloudDocs/Work/Research/USYD/23-HiQuER/manuscript/Decoder/arXiv_submission_240411/main.tex",
+		"/Users/seokhyung/Downloads/IOPEXPORT_BIB-2.bib",
+		"/Users/seokhyung/Library/Mobile Documents/com~apple~CloudDocs/Work/Research/USYD/23-HiQuER/codes/color_code_stim_backup/color_code_stim.py",
+		"/Users/seokhyung/Library/Mobile Documents/com~apple~CloudDocs/Work/Research/USYD/23-HiQuER/manuscript/Decoder/first_revision/response_letter.tex",
+		"/Users/seokhyung/Library/Mobile Documents/com~apple~CloudDocs/Work/Research/USYD/23-HiQuER/talks/241210 EQUS Workshop Poster/main.tex",
+		"/Users/seokhyung/Downloads/main-2.tex",
+		"/Users/seokhyung/Library/Mobile Documents/com~apple~CloudDocs/Work/Research/USYD/23-HiQuER/talks/241210 EQUS Workshop Poster/header.sty",
+		"/Users/seokhyung/Library/Mobile Documents/com~apple~CloudDocs/Work/연구 외/2024/Honours Thesis Mark/in-field-assessment_andrew.tex",
+		"/Users/seokhyung/Library/Mobile Documents/com~apple~CloudDocs/Work/연구 외/2024/Honours Thesis Mark/in-field-assessment_rhys.tex",
+		"/Users/seokhyung/Library/Mobile Documents/com~apple~CloudDocs/Work/연구 외/2024/Honours Thesis Mark/in-field-assessment_angus.tex",
+		"/Users/seokhyung/Library/Mobile Documents/com~apple~CloudDocs/Work/연구 외/2024/Honours Thesis Mark/in-field-assessment.tex",
+		"/Users/seokhyung/Library/Mobile Documents/com~apple~CloudDocs/Work/Research/USYD/24-GeneralizedConcatMWPM/notebooks/color_code_stim.py",
+		"/Users/seokhyung/Downloads/Review Guideline",
+		"/Users/seokhyung/Downloads/nmshpkkgjjxbstxkmxqzpzcctgtksbmb/main.tex",
+		"/Users/seokhyung/Downloads/nppyqgnmsdxdyxdwwcjvjsybjznvmfjp/main.tex",
+		"/Users/seokhyung/Downloads/revtex/README",
+		"/Users/seokhyung/Downloads/QUANTUM-2023-QTu4A.6.bib",
+		"/Users/seokhyung/Documents/Zoom/2024-09-13 10.53.31 Zoom Meeting/meeting_saved_chat.txt",
+		"/Users/seokhyung/Library/Mobile Documents/com~apple~CloudDocs/Work/Research/USYD/23-HiQuER/manuscript/MSD/QST_submission_240913/main.tex",
+		"/Users/seokhyung/Downloads/CambridgeCore_Citation_04Sep2024.txt",
+		"/Users/seokhyung/Library/Mobile Documents/com~apple~CloudDocs/Work/Research/USYD/23-HiQuER/codes/notebooks/2CombinedSchemeProbAnalysis_240722.ipynb",
+		"/Users/seokhyung/Library/Mobile Documents/com~apple~CloudDocs/Work/Research/USYD/23-HiQuER/codes/notebooks/CombinedSchemeProbAnalysis_240722.ipynb",
+		"/Users/seokhyung/Library/CloudStorage/Dropbox/앱/Overleaf/HiQuER - Color Code/Version 1/main.tex",
+		"/Users/seokhyung/Downloads/curly_bracket.svg",
+		"/Users/seokhyung/Library/Mobile Documents/com~apple~CloudDocs/Work/Research/USYD/23-HiQuER/manuscript/arXiv_submission_240411/main.tex",
+		"/Users/seokhyung/Library/Mobile Documents/com~apple~CloudDocs/Work/Research/SNU/22-2. OptGraphState/Manuscript/Submission (Quantum)/main.tex",
+		"/Users/seokhyung/Library/Mobile Documents/com~apple~CloudDocs/Work/Research/USYD/23-HiQuER/manuscript/arXiv_submission_240411/header.sty",
+		"/Users/seokhyung/Library/Mobile Documents/com~apple~CloudDocs/Work/Peer Review/240312 LEE AP12134 Pankovich/Report.tex",
+		"/Users/seokhyung/Library/Group Containers/3L68KQB4HG.group.com.readdle.smartemail/databases/messagesData/4/send3299946702145128975/OptimisingCNOTSchedule.ipynb",
+		"/Users/seokhyung/Library/Mobile Documents/com~apple~CloudDocs/Work/Research/USYD/23-HiQuER/codes/color_code_stim/color_code_stim.py",
+		"/Users/seokhyung/Library/Mobile Documents/com~apple~CloudDocs/Work/Research/USYD/23-HiQuER/codes/notebooks/data/data_circuit_level/logs/data_circuit_p6.00e-04_d21_T84_240311110055.txt",
+		"/Users/seokhyung/Library/Mobile Documents/com~apple~CloudDocs/Work/Research/USYD/23-HiQuER/codes/notebooks/data/data_circuit_level/logs/data_circuit_p6.00e-04_d21_T84_240307191408.txt",
+		"/Users/seokhyung/Library/Mobile Documents/com~apple~CloudDocs/Work/Research/USYD/23-HiQuER/codes/notebooks/data/data_circuit_level/logs/data_circuit_p6.00e-04_d19_T76_240307145906.txt",
+		"/Users/seokhyung/Library/Mobile Documents/com~apple~CloudDocs/Work/Research/USYD/23-HiQuER/codes/notebooks/data/data_circuit_level/logs/data_circuit_p2.00e-04_d13_T52_240307123828.txt",
+		"/Users/seokhyung/Library/Mobile Documents/com~apple~CloudDocs/Work/Research/USYD/23-HiQuER/codes/notebooks/data/data_circuit_level/logs/data_circuit_p5.00e-04_d19_T76_240305191811.txt",
+		"/Users/seokhyung/Downloads/main 3.tex",
+		"/Users/seokhyung/Library/Mobile Documents/com~apple~CloudDocs/Work/Research/USYD/23-HiQuER/codes/notebooks/data/data_circuit_level/logs/data_circuit_p7.00e-04_d21_T84_240305115809.txt",
+		"/Users/seokhyung/Downloads/main 2.tex",
+		"/Users/seokhyung/Library/Mobile Documents/com~apple~CloudDocs/Work/Research/USYD/23-HiQuER/codes/notebooks/data/data_circuit_level/logs/data_circuit_p7.00e-04_d21_T84_240304124254.txt",
+		"/Users/seokhyung/Library/Mobile Documents/com~apple~CloudDocs/Work/Research/USYD/23-HiQuER/codes/notebooks/data/data_circuit_level/logs/data_circuit_p2.00e-03_d3_T12_240304124217.txt",
+		"/Users/seokhyung/Library/Mobile Documents/com~apple~CloudDocs/Work/Research/USYD/23-HiQuER/codes/notebooks/data/data_circuit_level/logs/data_circuit_p2.00e-03_d3_T12_240304123835.txt",
+		"/Users/seokhyung/Library/Mobile Documents/com~apple~CloudDocs/Work/Research/USYD/23-HiQuER/6584de5b9efb569d9626b3bf/Version 1/header.sty",
+		"/Users/seokhyung/Library/Mobile Documents/com~apple~CloudDocs/Work/Research/USYD/23-HiQuER/6584de5b9efb569d9626b3bf/Version 1/bibliography.bib",
+		"/Users/seokhyung/Library/Mobile Documents/com~apple~CloudDocs/Work/Research/USYD/23-HiQuER/6584de5b9efb569d9626b3bf/Version 1/main.tex",
+		"/Users/seokhyung/Library/Mobile Documents/com~apple~CloudDocs/Work/Research/USYD/23-HiQuER/6584de5b9efb569d9626b3bf/output/main.bbl",
+		"/Users/seokhyung/Downloads/rust-1.64.0-x86_64-unknown-linux-gnu/README.md",
+		"/Users/seokhyung/Library/Mobile Documents/com~apple~CloudDocs/Work/Research/USYD/23-HiQuER/64ab54d1a6fdbb192621447e/Version 1/bibliography.bib",
+		"/Users/seokhyung/Library/Mobile Documents/com~apple~CloudDocs/Work/Research/USYD/23-HiQuER/64ab54d1a6fdbb192621447e/Version 1/header.sty",
+		"/Users/seokhyung/Library/Mobile Documents/com~apple~CloudDocs/Work/Research/USYD/23-HiQuER/64ab54d1a6fdbb192621447e/Version 1/main.tex",
+		"/Users/seokhyung/Library/Mobile Documents/com~apple~CloudDocs/Work/Research/USYD/23-HiQuER/64ab54d1a6fdbb192621447e/output/main.bbl",
+		"/Users/seokhyung/Library/Mobile Documents/com~apple~CloudDocs/Work/Research/USYD/23-HiQuER/talks/231121 EQUS Workshop Poster/beamerthemeQuant.sty",
+		"/Users/seokhyung/Library/Mobile Documents/com~apple~CloudDocs/Work/Research/USYD/23-HiQuER/talks/231121 EQUS Workshop Poster/main.tex",
+		"/Users/seokhyung/Library/Mobile Documents/com~apple~CloudDocs/Work/Research/USYD/23-HiQuER/talks/231121 EQUS Workshop Poster/beamerthemecggbposter.sty",
+		"/Users/seokhyung/Library/Mobile Documents/com~apple~CloudDocs/Work/Research/SNU/22-2. OptGraphState/642ce56bc559f745ae9db3e6/1st-revision/references.bib",
+		"/Users/seokhyung/Library/Mobile Documents/com~apple~CloudDocs/Work/Research/SNU/22-2. OptGraphState/642ce56bc559f745ae9db3e6/1st-revision/reply_letter.tex",
+		"/Users/seokhyung/Library/Mobile Documents/com~apple~CloudDocs/Work/Research/SNU/22-2. OptGraphState/642ce56bc559f745ae9db3e6/final/main.tex",
+		"/Users/seokhyung/Library/Mobile Documents/com~apple~CloudDocs/Work/Research/SNU/22-2. OptGraphState/642ce56bc559f745ae9db3e6/1st-revision/main.tex",
+		"/Users/seokhyung/Library/Mobile Documents/com~apple~CloudDocs/Work/Research/SNU/22-2. OptGraphState/642ce56bc559f745ae9db3e6/1st-revision/main-highlighted.tex",
+		"/Users/seokhyung/Library/Mobile Documents/com~apple~CloudDocs/Work/Research/SNU/22-2. OptGraphState/642ce56bc559f745ae9db3e6/1st-revision/main-highlighted.pdf",
+		"/Users/seokhyung/Library/Mobile Documents/com~apple~CloudDocs/Work/Research/SNU/22-2. OptGraphState/642ce56bc559f745ae9db3e6/.gitignore",
+		"/Users/seokhyung/Library/Mobile Documents/com~apple~CloudDocs/Work/Research/SNU/22-2. OptGraphState/Review/Report/main.tex",
+		"/Users/seokhyung/Library/Mobile Documents/com~apple~CloudDocs/Work/Research/USYD/23-HiQuER/64ab54d1a6fdbb192621447e/.gitignore",
+		"/Users/seokhyung/Library/Mobile Documents/com~apple~CloudDocs/Work/Research/USYD/23-HiQuER/64ab54d1a6fdbb192621447e/Version 1/main.pdf",
+		"/Users/seokhyung/Library/Mobile Documents/com~apple~CloudDocs/Work/Research/USYD/23-HiQuER/64ab54d1a6fdbb192621447e/temp/main.bbl",
+		"/Users/seokhyung/.jupyter/jupyter_nbconvert_config.json",
+		"/Users/seokhyung/Library/Mobile Documents/com~apple~CloudDocs/Work/Research/USYD/23-HiQuER/64ab54d1a6fdbb192621447e/Version 1/COMMIT_EDITMSG.COMMIT_EDITMSG",
+		"/Users/seokhyung/Library/CloudStorage/Dropbox/앱/Overleaf/HiQuER - Color Code/Version 1/bibliography.bib",
+		"/Users/seokhyung/Library/CloudStorage/Dropbox/앱/Overleaf/HiQuER - Color Code/Version 1/header.sty",
+		"/Users/seokhyung/Library/Application Support/Sublime Text 3/Packages/User/LaTeXTools.sublime-settings",
+		"/Users/slee7208/Library/CloudStorage/Dropbox/앱/Overleaf/HiQuER - Color Code/Version 1/main.tex",
+		"/Users/slee7208/Dropbox/앱/Overleaf/HiQuER - Color Code/temp/main.pdf",
+		"/Users/slee7208/Dropbox/앱/Overleaf/HiQuER - Color Code/Version 1/main.pdf",
+		"/Users/slee7208/Downloads/Exported Items.bib",
+		"/Users/slee7208/.zshrc",
+		"/Users/slee7208/.jupyter/jupyter_notebook_config.py",
+		"/Users/slee7208/Library/Mobile Documents/com~apple~CloudDocs/Personal/프로그래밍/Deep Learning/handson-ml2/docker/jupyter_notebook_config.py"
+	],
+	"find":
+	{
+		"height": 56.0
+	},
+	"find_in_files":
+	{
+		"height": 127.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"scrollbar_highlights": true,
+		"show_context": true,
+		"use_buffer2": true,
+		"use_gitignore": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 31.0
+	},
+	"input":
+	{
+		"height": 54.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 155.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.git":
+	{
+		"height": 149.0
+	},
+	"output.latextools":
+	{
+		"height": 143.0
+	},
+	"output.mdpopups":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "github_profile_page.sublime-project",
+	"replace":
+	{
+		"height": 58.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 199.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
