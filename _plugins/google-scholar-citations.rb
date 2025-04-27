@@ -32,7 +32,9 @@ module Jekyll
           sleep(rand(1.5..3.5))
 
           # Fetch the article page
-          doc = Nokogiri::HTML(URI.open(article_url, "User-Agent" => "Ruby/#{RUBY_VERSION}"))
+          # Use a common browser User-Agent to avoid being blocked
+          user_agent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+          doc = Nokogiri::HTML(URI.open(article_url, "User-Agent" => user_agent))
 
           # Attempt to extract the citation count from the link text
           citation_count = 0
