@@ -34,27 +34,14 @@ module Jekyll
           # Fetch the article page
           doc = Nokogiri::HTML(URI.open(article_url, "User-Agent" => "Ruby/#{RUBY_VERSION}"))
 
-          # Attempt to extract the "Cited by n" string from the meta tags
+          # Attempt to extract the citation count from the link text
           citation_count = 0
+          cited_by_link = doc.at_css('a:contains("Cited by")')
 
-          # Look for meta tags with "name" attribute set to "description"
-          description_meta = doc.css('meta[name="description"]')
-          og_description_meta = doc.css('meta[property="og:description"]')
-
-          if !description_meta.empty?
-            cited_by_text = description_meta[0]['content']
-            matches = cited_by_text.match(/Cited by (\d+[,\d]*)/)
-
+          if cited_by_link
+            matches = cited_by_link.text.match(/Cited by (\d+[,\d]*)/)
             if matches
-              citation_count = matches[1].sub(",", "").to_i
-            end
-
-          elsif !og_description_meta.empty?
-            cited_by_text = og_description_meta[0]['content']
-            matches = cited_by_text.match(/Cited by (\d+[,\d]*)/)
-
-            if matches
-              citation_count = matches[1].sub(",", "").to_i
+              citation_count = matches[1].delete(',').to_i
             end
           end
 
