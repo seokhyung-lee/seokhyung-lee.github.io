@@ -1,6 +1,7 @@
 require "active_support/all"
 require 'nokogiri'
 require 'open-uri'
+require 'yaml'
 
 module Helpers
   extend ActiveSupport::NumberHelper
@@ -28,6 +29,15 @@ module Jekyll
     def render(context)
       article_id = context[@article_id.strip]
       scholar_id = context[@scholar_id.strip]
+      
+      # First check fallback data
+      fallback_count = get_fallback_citation_count(article_id)
+      if fallback_count
+        puts "Using fallback citation count for #{article_id}: #{fallback_count}"
+        citation_count = Helpers.number_to_human(fallback_count, :format => '%n%u', :precision => 2, :units => { :thousand => 'K', :million => 'M', :billion => 'B' })
+        return citation_count
+      end
+      
       article_url = "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=#{scholar_id}&citation_for_view=#{scholar_id}:#{article_id}"
 
       begin
@@ -45,7 +55,7 @@ module Jekyll
           puts "Sleeping for #{sleep_time.round(2)} seconds..."
           sleep(sleep_time)
 
-          citation_count = fetch_citation_count_with_retry(article_url, article_id, max_retries: 3)
+          citation_count = fetch_citation_count_with_retry(article_url, article_id, max_retries: 2)
 
         citation_count = Helpers.number_to_human(citation_count, :format => '%n%u', :precision => 2, :units => { :thousand => 'K', :million => 'M', :billion => 'B' })
 
@@ -55,7 +65,15 @@ module Jekyll
 
         # Print the error message including the exception class and message
         puts "Error fetching citation count for #{article_id}: #{e.class} - #{e.message}"
-        puts "Backtrace: #{e.backtrace.first(3).join(', ')}" if e.backtrace
+        
+        # Try fallback data one more time
+        fallback_count = get_fallback_citation_count(article_id)
+        if fallback_count
+          puts "Using fallback citation count after error for #{article_id}: #{fallback_count}"
+          citation_count = Helpers.number_to_human(fallback_count, :format => '%n%u', :precision => 2, :units => { :thousand => 'K', :million => 'M', :billion => 'B' })
+        else
+          puts "No fallback data available for #{article_id}"
+        end
       end
 
       GoogleScholarCitationsTag::Citations[article_id] = citation_count
@@ -65,7 +83,24 @@ module Jekyll
 
     private
 
-    def fetch_citation_count_with_retry(article_url, article_id, max_retries: 3)
+    def get_fallback_citation_count(article_id)
+      begin
+        # Try to load fallback data from _data/citations.yml
+        site_source = Jekyll.sites.first&.source || Dir.pwd
+        fallback_file = File.join(site_source, '_data', 'citations.yml')
+        
+        if File.exist?(fallback_file)
+          fallback_data = YAML.load_file(fallback_file)
+          return fallback_data[article_id] if fallback_data && fallback_data[article_id]
+        end
+      rescue => e
+        puts "Error loading fallback data: #{e.message}"
+      end
+      
+      nil
+    end
+
+    def fetch_citation_count_with_retry(article_url, article_id, max_retries: 2)
       retries = 0
       
       while retries < max_retries
@@ -125,11 +160,6 @@ module Jekyll
             end
           else
             puts "No citation link found"
-            # Debug: Show some links to understand the page structure
-            puts "Sample links found on page:"
-            doc.css('a').first(5).each_with_index do |link, index|
-              puts "  [#{index}] #{link.text&.strip} (href: #{link['href']})"
-            end
           end
 
           return citation_count
@@ -139,8 +169,8 @@ module Jekyll
           puts "HTTP Error on attempt #{retries}: #{e.message}"
           
           if retries < max_retries
-            # Exponential backoff with jitter
-            wait_time = (2 ** retries) + rand(1..5)
+            # Shorter backoff since we're reducing retries
+            wait_time = 2 + rand(1..3)
             puts "Retrying in #{wait_time} seconds..."
             sleep(wait_time)
           else
