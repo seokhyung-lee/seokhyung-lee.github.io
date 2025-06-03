@@ -1,0 +1,22 @@
+# Fallback citation counts for Google Scholar articles
+# This file is used when Google Scholar API is not accessible (e.g., in GitHub Actions)
+# Format: article_id: citation_count
+# 
+# To update citation counts:
+# 1. Run: python update_citations.py
+# 2. Or manually visit Google Scholar pages and update counts below
+# 
+# Last updated: 2025-06-03
+
+# Citation counts automatically fetched from Google Scholar
+URolC5Kub84C: 16    # 16 citations
+ML0RJ9NH7IQC: 10    # 10 citations
+uWiczbcajpAC: 11    # 11 citations
+epqYDVWIO7EC: 19    # 19 citations
+Z5m8FVwuT1cC: 0    # 0 citations
+zLWjf1WUPmwC: 9    # 9 citations
+uc_IGeMz5qoC: 8    # 8 citations
+9Nmd_mFXekcC: 31    # 31 citations
+nrtMV_XWKgEC: 11    # 11 citations
+t7zJ5fGR-2UC: 1    # 1 citations
+XD-gHx7UXLsC: 8    # 8 citations
