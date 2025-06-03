@@ -38,7 +38,20 @@ module Jekyll
 
           # Attempt to extract the citation count from the link text
           citation_count = 0
-          cited_by_link = doc.at_css('a:contains("Cited by")')
+          
+          # Try multiple approaches to find the "Cited by" link
+          # Method 1: Use XPath to find links containing "Cited by"
+          cited_by_link = doc.at_xpath('//a[contains(text(), "Cited by")]')
+          
+          # Method 2: If XPath fails, search through all links
+          if cited_by_link.nil?
+            doc.css('a').each do |link|
+              if link.text && link.text.include?("Cited by")
+                cited_by_link = link
+                break
+              end
+            end
+          end
 
           if cited_by_link
             matches = cited_by_link.text.match(/Cited by (\d+[,\d]*)/)
