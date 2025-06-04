@@ -7,7 +7,6 @@ This repository includes a system for automatically fetching citation counts fro
 ### 1. Jekyll Plugin (`_plugins/google-scholar-citations.rb`)
 - Jekyll tag that fetches citation counts from Google Scholar in real-time
 - Uses fallback data when 403 errors occur in GitHub Actions
-- Usage: `{% google_scholar_citations 'scholar_id' 'article_id' %}`
 
 ### 2. Fallback Data (`_data/citations.yml`)
 - Citation count data used when Google Scholar access is unavailable
