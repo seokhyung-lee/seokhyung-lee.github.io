@@ -20,8 +20,8 @@ This includes areas such as decoding, logical operations, magic state preparatio
 
 Currently, I am an Assistant Professor in the Department of Quantum Information Engineering at _[Sungkyunkwan University (SKKU)](https://www.skku.edu/eng/)_ in South Korea, where I began in Sep 2025.
 
-Previously, from Mar 2023 to Sep 2025, I was a postdoc in the _[Quantum Theory Group](https://quantum.sydney.edu.au/research/quantum-theory-group)_ at the **[University of Sydney](https://www.google.co.kr/search?q=university+of+sydney)** in Australia, working with Prof. [Stephen D. Bartlett](https://www.sydney.edu.au/science/about/our-people/academic-staff/stephen-bartlett.html) on quantum error correction using 2D color codes.
+Previously, from Mar 2023 to Sep 2025, I was a postdoc in the _[Quantum Theory Group](https://quantum.sydney.edu.au/research/quantum-theory-group)_ at the **[University of Sydney](https://www.sydney.edu.au)** in Australia, working with Prof. [Stephen D. Bartlett](https://www.sydney.edu.au/science/about/our-people/academic-staff/stephen-bartlett.html) on quantum error correction using 2D color codes.
 
-From Mar 2017 to Feb 2023, I pursued my PhD at the _[Center for Macroscopic Quantum Control](http://cmqc.snu.ac.kr)_ at **[Seoul National University](https://www.snu.ac.kr)** (Republic of Korea) under the guidance of Prof. [Hyunseok Jeong](https://physics.snu.ac.kr/hjeong/). 
+From Mar 2017 to Feb 2023, I pursued my PhD at the _[Center for Macroscopic Quantum Control](http://cmqc.snu.ac.kr)_ at **[Seoul National University](https://www.snu.ac.kr)** in South Korea, under the guidance of Prof. [Hyunseok Jeong](https://physics.snu.ac.kr/hjeong/). 
 My doctoral research focused on measurement-based quantum computing in photonic platforms, culminating in my dissertation titled ["Universal Resource-efficient Topological Measurement-based Quantum Computing"](https://s-space.snu.ac.kr/handle/10371/194330). 
 From Mar 2013 to Feb 2017, I completed my undergraduate studies in Physics at the same university.  
