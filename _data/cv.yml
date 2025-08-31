@@ -4,7 +4,7 @@
     - name: Full Name
       value: Seok-Hyung Lee (이석형 in Korean)
     - name: E-mail
-      value: seokhyung.lee(at)sydney.edu.au
+      value: seokhyunglee(at)skku.edu
     - name: Google Scholar
       value: <a href="https://scholar.google.com/citations?user=NURGJAwAAAAJ">Link</a>
     - name: ORCID
@@ -29,9 +29,15 @@
 - title: Employment
   type: time_table
   contents:
-    - title: Postdoctoral associate
+    - title: Assistant Professor
+      institution: <a href="https://www.skku.edu/eng/">Sungkyunkwan University (SKKU)</a>, Suwon, Republic of Korea
+      year: 2025 - Present
+      description:
+        - <a href="https://qie.skku.edu/qie/index.do">Department of Quantum Information Engineering</a>
+        
+    - title: Postdoctoral Associate
       institution: <a href="https://www.sydney.edu.au">University of Sydney</a>, Sydney, Australia
-      year: 2023 - Present
+      year: 2023 - 2025
       description:
         - <a href="https://quantum.sydney.edu.au">Quantum Theory Group</a>, School of Physics
         - "<b>Mentor</b>: Prof. <a href='https://www.sydney.edu.au/science/about/our-people/academic-staff/stephen-bartlett.html
