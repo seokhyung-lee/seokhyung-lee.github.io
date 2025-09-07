@@ -106,7 +106,7 @@ wechat_qr: # filename of your wechat qr-code saved as an image (e.g., wechat-qr.
 whatsapp_number: # your WhatsApp number (full phone number in international format. Omit any zeroes, brackets, or dashes when adding the phone number in international format.)
 wikidata_id: # your wikidata id
 wikipedia_id: # your wikipedia id (Case sensitive)
-work_url: https://www.sydney.edu.au/science/about/our-people/academic-staff/seokhyung-lee.html # work page URL
+work_url: https://enc.skku.edu/eng_enc/faculty_quantum.do?mode=view&perId=LZStrNQFgTAsgHA7AkgVQFoDsCaAZA1gegCoDSAnAEoAuAUgBICCAvHUA%20& # work page URL
 x_username: SeokHyungLee96 # your X handle
 youtube_id: # your youtube channel id (youtube.com/@<youtube_id>)
 zotero_username: # your zotero username
