@@ -6,7 +6,7 @@ title: Seok-Hyung Lee # the website title (if blank, full name will be used inst
 first_name: Seok-Hyung
 middle_name: 
 last_name: Lee
-email: seokhyung.lee@sydney.edu.au
+email: seokhyunglee@skku.edu
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   Personal Website for Seok-Hyung Lee
 footer_text: >
@@ -111,7 +111,7 @@ x_username: SeokHyungLee96 # your X handle
 youtube_id: # your youtube channel id (youtube.com/@<youtube_id>)
 zotero_username: # your zotero username
 
-contact_note: "If you are interested in discussing with me, feel free to send me an email: seokhyung.lee@sydney.edu.au"
+contact_note: "If you are interested in discussing with me, feel free to send me an email: seokhyunglee@skku.edu"
   
 
 # -----------------------------------------------------------------------------
