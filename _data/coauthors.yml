@@ -47,3 +47,15 @@
 "fazio":
   - firstname: [ 'Nicholas', 'N.' ]
     url: https://scholar.google.com/citations?user=ZTrtWBIAAAAJ
+
+"kwon":
+  - firstname: ['Hyukjoon', 'H.']
+    url: https://www.kias.re.kr/kias/people/faculty/viewMember.do?memberId=10853&trget=listFaculty&menuNo=408002&pageIndex=
+
+"kim":
+  - firstname: ['Myungshik', 'M. S.']
+    url: https://profiles.imperial.ac.uk/m.kim
+
+"english":
+  - firstname: ['Lucas', 'Lucas H.', 'L. H.']
+    url: https://scholar.google.com/citations?user=r3l7PMBZS-8C
