@@ -1,3 +1,33 @@
+@misc{lee2025efficient,
+      title={Efficient Post-Selection for General Quantum LDPC Codes}, 
+      author={Seok-Hyung Lee and Lucas English and Stephen D. Bartlett},
+      year={2025},
+      eprint={2510.05795},
+      archivePrefix={arXiv},
+      primaryClass={quant-ph},
+      url={https://arxiv.org/abs/2510.05795}, 
+      bibtex_show = {true},
+      arxiv = {2510.05795},
+      google_scholar_id = {EYYDruWGBe4C},
+      preview = {lee2025efficient.png},
+      note = {[>90 scites](https://scirate.com/arxiv/2510.05795)},
+      abstract = {Post-selection strategies that discard low-confidence computational results can significantly improve the effective fidelity of quantum error correction at the cost of reduced acceptance rates, which can be particularly useful for offline resource state generation. Prior work has primarily relied on the "logical gap" metric with the minimum-weight perfect matching decoder, but this approach faces fundamental limitations including computational overhead that scales exponentially with the number of logical qubits and poor generalizability to arbitrary codes beyond surface codes. We develop post-selection strategies based on computationally efficient heuristic confidence metrics that leverage error cluster statistics (specifically, aggregated cluster sizes and log-likelihood ratios) from clustering-based decoders, which are applicable to arbitrary quantum low-density parity check (QLDPC) codes. We validate our method through extensive numerical simulations on surface codes, bivariate bicycle codes, and hypergraph product codes, demonstrating orders of magnitude reductions in logical error rates with moderate abort rates. For instance, applying our strategy to the [[144,12,12]] bivariate bicycle code achieves approximately three orders of magnitude reduction in the logical error rate with an abort rate of only 1% (19%) at a physical error rate of 0.1% (0.3%). Additionally, we integrate our approach with the sliding-window framework for real-time decoding, featuring early mid-circuit abort decisions that eliminate unnecessary overheads. Notably, its performance matches or even surpasses the original strategy for global decoding, while exhibiting favorable scaling in the number of rounds. Our approach provides a practical foundation for efficient post-selection in fault-tolerant quantum computing with QLDPC codes.}
+}
+
+@misc{lee2025photonic,
+      title={Photonic Hybrid Quantum Computing}, 
+      author={Jaehak Lee and Srikrishna Omkar and Yong Siah Teo and Seok-Hyung Lee and Hyukjoon Kwon and M. S. Kim and Hyunseok Jeong},
+      year={2025},
+      eprint={2510.00534},
+      archivePrefix={arXiv},
+      primaryClass={quant-ph},
+      url={https://arxiv.org/abs/2510.00534}, 
+      bibtex_show = {true},
+      arxiv = {2510.00534},
+      google_scholar_id = {vbGhcppDl1QC},
+      abstract = {Photons are a ubiquitous carrier of quantum information: they are fast, suffer minimal decoherence, and do not require huge cryogenic facilities. Nevertheless, their intrinsically weak photon-photon interactions remain a key obstacle to scalable quantum computing. This review surveys hybrid photonic quantum computing, which exploits multiple photonic degrees of freedom to combine the complementary strengths of discrete and bosonic encodings, thereby significantly mitigating the challenge of weak photon-photon interactions. We first outline the basic principles of discrete-variable, native continuous-variable, and bosonic-encoding paradigms. We then summarise recent theoretical advances and state-of-the-art experimental demonstrations with particular emphasis on the hybrid approach. Its unique advantages, such as efficient generation of resource states and nearly ballistic (active-feedforward-free) operations, are highlighted alongside remaining technical challenges. To facilitate a clear comparison, we explicitly present the error thresholds and resource overheads required for fault-tolerant quantum computing. Our work offers a focused overview that clarifies how the hybrid approach enables scalable and compatible architectures for quantum computing.}
+}
+
 @article{lee2025low,
   title = {Low-Overhead Magic State Distillation with Color Codes},
   author = {Lee, Seok-Hyung and Thomsen, Felix and Fazio, Nicholas and Brown, Benjamin J. and Bartlett, Stephen D.},
@@ -15,7 +45,7 @@
   arxiv = {2409.07707},
   preview = {lee2025low.png},
   selected = {true},
-  note = {selected as a [QCTiP 2025](https://qctip2025.com) talk<br>[>100 scites](https://scirate.com/arxiv/2409.07707)},
+  note = {selected as a [QCTiP 2025](https://qctip2025.com) talk<br>[>110 scites](https://scirate.com/arxiv/2409.07707)},
   google_scholar_id = {ML0RJ9NH7IQC},
   slides = {lee2024low_slides.pdf},
   abstract = {Fault-tolerant implementation of non-Clifford gates is a major challenge for achieving universal fault-tolerant quantum computing with quantum error-correcting codes. Magic state distillation is the most well-studied method for this but requires significant resources. Hence, it is crucial to tailor and optimize magic state distillation for specific codes from both logical- and physical-level perspectives. In this work, we perform such optimization for two-dimensional color codes, which are promising due to their higher encoding rates compared to surface codes, transversal implementation of Clifford gates, and efficient lattice surgery. We propose two carefully designed distillation schemes based on the 15-to-1 distillation circuit and lattice surgery, differing in their methods for handling faulty rotations. Our first scheme employs faulty T measurement, achieving infidelities of O(p^3) for physical noise strength p. To achieve lower infidelities, our second scheme integrates distillation with “cultivation” (a distillation-free approach to fault tolerantly prepare magic states through transversal Clifford measurements). Our second scheme achieves significantly lower infidelities (e.g., approximately 2 ×10^-16 at p=10^-3), surpassing the capabilities of both cultivation and single-level distillation. Notably, to reach a given target infidelity, our schemes require approximately 2 orders of magnitude fewer resources than the previous best magic-state-distillation schemes for color codes.},
