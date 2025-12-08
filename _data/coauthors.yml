@@ -55,7 +55,17 @@
 "kim":
   - firstname: ['Myungshik', 'M. S.']
     url: https://profiles.imperial.ac.uk/m.kim
+  - firstname: ['Junki', 'J.']
+    url: https://iontrap.skku.edu/home
 
 "english":
   - firstname: ['Lucas', 'Lucas H.', 'L. H.']
     url: https://scholar.google.com/citations?user=r3l7PMBZS-8C
+
+"baek"
+  - firstname: ['Seunghyun', 'S.']
+    url: https://sites.google.com/view/queti/members?pli=1#h.on2wsdmhvtgc
+
+"min":
+  - firstname: ['Dongmoon', 'D.']
+    url: https://dongmoon-min.github.io
