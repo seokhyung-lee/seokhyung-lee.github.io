@@ -42,6 +42,7 @@
       bibtex_show = {true},
       arxiv = {2510.00534},
       google_scholar_id = {vbGhcppDl1QC},
+      preview = {lee2025photonic.png},
       prefix = {Preprint,Review},
       abstract = {Photons are a ubiquitous carrier of quantum information: they are fast, suffer minimal decoherence, and do not require huge cryogenic facilities. Nevertheless, their intrinsically weak photon-photon interactions remain a key obstacle to scalable quantum computing. This review surveys hybrid photonic quantum computing, which exploits multiple photonic degrees of freedom to combine the complementary strengths of discrete and bosonic encodings, thereby significantly mitigating the challenge of weak photon-photon interactions. We first outline the basic principles of discrete-variable, native continuous-variable, and bosonic-encoding paradigms. We then summarise recent theoretical advances and state-of-the-art experimental demonstrations with particular emphasis on the hybrid approach. Its unique advantages, such as efficient generation of resource states and nearly ballistic (active-feedforward-free) operations, are highlighted alongside remaining technical challenges. To facilitate a clear comparison, we explicitly present the error thresholds and resource overheads required for fault-tolerant quantum computing. Our work offers a focused overview that clarifies how the hybrid approach enables scalable and compatible architectures for quantum computing.}
 }
@@ -122,6 +123,7 @@
   pages = {030322},
   publisher = {American Physical Society},
   doi = {10.1103/PRXQuantum.5.030322},
+  preview = {lee2024faulttolerant.png},
   bibtex_show = {true},
   google_scholar_id = {uWiczbcajpAC},
   abstract = {Hybridizing different degrees of freedom or physical platforms potentially offers various advantages in building scalable quantum architectures. Here, we introduce a fault-tolerant hybrid quantum computation by building on the advantages of both discrete-variable (DV) and continuous-variable (CV) systems. In particular, we define a CV-DV hybrid qubit with a bosonic cat code and a single photon, which is implementable in current photonic platforms. Due to the cat code encoded in the CV part, the predominant loss errors are readily correctable without multiqubit encoding, while the logical basis is inherently orthogonal due to the DV part. We design fault-tolerant architectures by concatenating hybrid qubits and an outer DV quantum error-correction code such as a topological code, exploring their potential merit in developing scalable quantum computation. We demonstrate by numerical simulations that our scheme is at least an order of magnitude more resource efficient compared to all previous proposals in photonic platforms, allowing us to achieve a record-high loss threshold among existing CV and hybrid approaches. We discuss the realization of our approach not only in all-photonic platforms but also in other hybrid platforms including superconducting and trapped-ion systems, which allows us to find various efficient routes toward fault-tolerant quantum computing.},
@@ -212,6 +214,7 @@ abstract = {Fault-tolerant photonic quantum computing schemes have suffered low 
   publisher = {American Physical Society},
   doi = {10.1103/PhysRevA.107.022608},
   bibtex_show = {true},
+  preview = {teo2023virtual.png},
   google_scholar_id = {uc_IGeMz5qoC},
   arxiv = {2210.14753},
   abstract = {Virtual distillation is an error-mitigation technique that reduces quantum-computation errors without assuming the noise type. In scenarios where the user of a quantum circuit is required to additionally employ peripherals, such as delay lines, that introduce excess noise, we find that the error-mitigation performance can be improved if the peripheral, whenever possible, is split across the entire circuit, that is, when the noise channel is uniformly distributed in layers within the circuit. We show that under the multiqubit loss and Pauli noise channels, respectively, for a given overall error rate, the average mitigation performance improves monotonically as the noisy peripheral is split (diluted) into more layers, with each layer sandwiched between subcircuits that are sufficiently deep to behave as 2-designs. For both channels, analytical and numerical evidence show that second-order distillation is generally sufficient for (near-)optimal mitigation. We propose an application of these findings in designing a quantum-computing cluster that houses realistic noisy intermediate-scale quantum circuits that may be shallow in depth, where measurement detectors are limited and delay lines are necessary to queue output qubits from multiple circuits.},
@@ -230,6 +233,7 @@ abstract = {Fault-tolerant photonic quantum computing schemes have suffered low 
   doi = {10.1103/PRXQuantum.3.030309},
   bibtex_show = {true},
   google_scholar_id = {9Nmd_mFXekcC},
+  preview = {omkar2022allphotonic.png},
   arxiv = {2109.12280},
   abstract = {Linear optical quantum computing is beset by the lack of deterministic entangling operations besides photon loss. Motivated by advancements at the experimental front in deterministic generation of various kinds of multiphoton entangled states, we propose an architecture for linear-optical quantum computing that harnesses the availability of three-photon Greenberger-Horne-Zeilinger (GHZ) states. Our architecture and its subvariants use polarized photons in GHZ states, polarization beam splitters, delay lines, optical switches, and on-off detectors. We concatenate the topological quantum error-correction code with three-qubit repetition codes and estimate that our architecture can tolerate a remarkably high photon-loss rate of 11.5%; this makes a drastic change that is at least an order higher than those of known proposals. Furthermore, considering three-photon GHZ states as resources, we estimate the resource overheads to perform gate operations with an accuracy of 10^{-6} (10^{-15}) to be 2.07 × 10^6 (5.03 × 10^7). Compared to other all-photonic schemes, our architecture is also resource efficient. In addition, the resource overhead can be even further improved if larger GHZ states are available. Given its striking enhancement in the photon-loss threshold and the recent progress in generating multiphoton entanglement, our scheme moves scalable photonic quantum computing a step closer to reality.},
 }
@@ -271,7 +275,7 @@ abstract = {Fault-tolerant photonic quantum computing schemes have suffered low 
   abstract = {The coherent-state qubit is a promising candidate for optical quantum information processing due to its nearly deterministic nature of the Bell-state measurement (BSM). However, its nonorthogonality incurs difficulties such as the failure of the BSM. One may use a large amplitude (𝛼) for the coherent state to minimize the failure probability, but the qubit then becomes more vulnerable to dephasing by photon loss. We propose a hardware-efficient concatenated BSM (CBSM) scheme with modified parity encoding using coherent states with reasonably small amplitudes (|𝛼|⪅2), which simultaneously suppresses both failures and dephasing in the BSM procedure. We numerically show that the CBSM scheme achieves a success probability arbitrarily close to unity for appropriate values of 𝛼 and sufficiently low photon loss rates (e.g., ⪅5%). Furthermore, we verify that the quantum repeater scheme exploiting the CBSM scheme for quantum error correction enables one to carry out efficient long-range quantum communication over 1000 km. We show that the performance is comparable to those of other up-to-date methods and even exceeds them in some cases. Finally, we present methods to prepare logical qubits under modified parity encoding, and we implement elementary logical operations, which consist of several physical-level ingredients such as generation of superpositions of coherent states (SCSs) and elementary gates under the coherent-state basis. We then estimate the effects of imperfect physical-level elements on the performance of the scheme. Our work demonstrates that the encoded coherent-state qubits in free-propagating fields provide an alternative route to fault-tolerant information processing, especially to long-range quantum communication.},
 }
 
-@article{choi2020teleportationa,
+@article{choi2020teleportation,
   title = {Teleportation of a Multiphoton Qubit Using Hybrid Entanglement with a Loss-Tolerant Carrier Qubit},
   author = {Choi, Seongjeon and Lee, Seok-Hyung and Jeong, Hyunseok},
   year = {2020},
@@ -281,6 +285,7 @@ abstract = {Fault-tolerant photonic quantum computing schemes have suffered low 
   number = {1},
   pages = {012424},
   publisher = {American Physical Society},
+  preview = {choi2020teleportation.png},
   doi = {10.1103/PhysRevA.102.012424},
   bibtex_show = {true},
   google_scholar_id = {XD-gHx7UXLsC},
