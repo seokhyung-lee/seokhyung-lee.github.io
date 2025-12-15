@@ -24,4 +24,6 @@ Previously, from Mar 2023 to Sep 2025, I was a postdoc in the _[Quantum Theory G
 
 From Mar 2017 to Feb 2023, I pursued my PhD at the _[Center for Macroscopic Quantum Control](http://cmqc.snu.ac.kr)_ at **[Seoul National University](https://www.snu.ac.kr)** in South Korea, under the guidance of Prof. [Hyunseok Jeong](https://physics.snu.ac.kr/hjeong/). 
 My doctoral research focused on measurement-based quantum computing in photonic platforms, culminating in my dissertation titled ["Universal Resource-efficient Topological Measurement-based Quantum Computing"](https://s-space.snu.ac.kr/handle/10371/194330). 
-From Mar 2013 to Feb 2017, I completed my undergraduate studies in Physics at the same university.  
+From Mar 2013 to Feb 2017, I completed my undergraduate studies in Physics at the same university.
+
+## [We're now hiring a postdoc researcher in QEC/QEM!](https://seokhyung-lee.github.io/assets/pdf/postdoc-hiring-announcement-251215.pdf)
