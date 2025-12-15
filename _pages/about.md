@@ -26,4 +26,10 @@ From Mar 2017 to Feb 2023, I pursued my PhD at the _[Center for Macroscopic Quan
 My doctoral research focused on measurement-based quantum computing in photonic platforms, culminating in my dissertation titled ["Universal Resource-efficient Topological Measurement-based Quantum Computing"](https://s-space.snu.ac.kr/handle/10371/194330). 
 From Mar 2013 to Feb 2017, I completed my undergraduate studies in Physics at the same university.
 
-## [We're now hiring a postdoc researcher in QEC/QEM!](https://seokhyung-lee.github.io/assets/pdf/postdoc-hiring-announcement-251215.pdf)
+<div align="center">
+  <h2>
+    <a href="https://seokhyung-lee.github.io/assets/pdf/postdoc-hiring-announcement-251215.pdf">
+      <strong>We’re now hiring a postdoc researcher in QEC/QEM!</strong>
+    </a>
+  </h2>
+</div>
