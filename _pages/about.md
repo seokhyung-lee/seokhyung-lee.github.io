@@ -27,9 +27,10 @@ My doctoral research focused on measurement-based quantum computing in photonic 
 From Mar 2013 to Feb 2017, I completed my undergraduate studies in Physics at the same university.
 
 <div align="center">
-  <h2>
+  <h3>
     <a href="https://seokhyung-lee.github.io/assets/pdf/postdoc-hiring-announcement-251215.pdf">
       <strong>We’re now hiring a postdoc researcher in QEC/QEM!</strong>
-    </a>
-  </h2>
+    </a><br>
+    <strong>We also welcome applications from prospective graduate and undergraduate students!</strong>
+  </h3>
 </div>
