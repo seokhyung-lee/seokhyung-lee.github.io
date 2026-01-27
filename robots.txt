@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://seokhyung-lee.github.ioqctg/sitemap.xml
+Sitemap: https://seokhyung-lee.github.io/sitemap.xml
