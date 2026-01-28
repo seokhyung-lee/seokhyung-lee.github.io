@@ -4,136 +4,99 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Overview
 
-This is an academic website built with the **al-folio** Jekyll theme - a clean, responsive theme designed for academics to showcase their research, publications, and profile. The site belongs to Seok-Hyung Lee, a physicist specializing in quantum information and computation.
+This is an academic personal website built with Jekyll using the [al-folio](https://github.com/alshedivat/al-folio) theme. The site is deployed to GitHub Pages at https://seokhyung-lee.github.io.
 
-## Development Commands
+**Related Repository:** Group website at `../skku-qctg.github.io` (SKKU Quantum Computing Theory Group)
 
-### Local Development
+## Common Commands
+
+### Local Development with Docker (Recommended)
 ```bash
-# Using Docker (Recommended)
 docker compose pull
-docker compose up
+docker compose up                              # Runs at http://localhost:8080
+docker compose -f docker-compose-slim.yml up   # Smaller image variant
+docker compose up --build                      # Rebuild image after changes
+```
 
-# Using Docker Slim (Beta, <100MB)
-docker compose -f docker-compose-slim.yml up
-
-# Legacy method (not supported)
+### Local Development without Docker
+```bash
 bundle install
 pip install jupyter
-bundle exec jekyll serve
+bundle exec jekyll serve                       # Runs at http://localhost:4000
 ```
 
-### Building and Deployment
+### Production Build
 ```bash
-# Build the site
-bundle exec jekyll build
-
-# Build with production environment
-export JEKYLL_ENV=production
-bundle exec jekyll build
-
-# Purge unused CSS after build
-npm install -g purgecss
-purgecss -c purgecss.config.js
+JEKYLL_ENV=production bundle exec jekyll build
+purgecss -c purgecss.config.js                 # Remove unused CSS
 ```
 
-### Code Quality
+### Code Formatting
 ```bash
-# Format code with Prettier
 npx prettier --write .
-
-# Update citation counts from Google Scholar
-python update_citations.py
 ```
 
-## Architecture Overview
+### Citation Updates
+```bash
+python bin/update_scholar_citations.py
+```
 
-### Framework Structure
-- **Jekyll** static site generator with **Ruby** backend
-- **Bootstrap** for responsive layout and components  
-- **MathJax** for mathematical typesetting
-- **Jekyll Scholar** for bibliography management
-- **GitHub Actions** for automated deployment
+**Google Scholar Citations:**
+- The script fetches citation counts using `scholar_userid` from `_config.yml`
+- Citation data is stored in `_data/citations.yml` with keys in format `{scholar_userid}:{google_scholar_id}`
+- Each paper in `papers.bib` needs a `google_scholar_id` field to display citations
 
-### Key Directories
-- `_config.yml` - Main Jekyll configuration with personal info, plugins, and settings
-- `_pages/` - Main site pages (about, publications, CV, etc.)
-- `_layouts/` - HTML templates for different page types
-- `_includes/` - Reusable HTML components and partials
-- `_data/` - YAML data files (CV info, citations, repositories)
-- `_bibliography/` - BibTeX files for publications
-- `_sass/` - SCSS stylesheets and theme customization
-- `assets/` - Static assets (images, CSS, JS, PDFs, etc.)
-- `_plugins/` - Custom Jekyll plugins for extended functionality
+## Architecture
 
-### Custom Features
-This site includes several custom plugins and features:
-- **Google Scholar Citations Plugin** - Automatically fetches citation counts
-- **Publication Management** - BibTeX integration with thumbnails and badges  
-- **Citation Count Updates** - Python script to update citation data from Google Scholar
-- **Responsive Design** - Mobile-first with light/dark mode support
-- **Academic Focus** - CV generation, publication lists, research profiles
+### Content Structure
+- `_bibliography/papers.bib` - BibTeX publications database (auto-rendered on publications page)
+- `_news/` - News announcements (markdown files with date prefixes, e.g., `250128_new_paper.md`)
+- `_pages/` - Static pages (about, cv, publications, etc.)
+- `_data/cv.yml` - CV data (fallback when `assets/json/resume.json` not present)
+- `_data/citations.yml` - Cached Google Scholar citation counts
+- `_data/coauthors.yml` - Co-author links for publications
 
-### Data Flow
-1. **Personal Info**: Stored in `_config.yml` and `_data/cv.yml`
-2. **Publications**: Managed via `_bibliography/papers.bib` with metadata
-3. **Citations**: Updated via `update_citations.py` → `_data/citations.yml`
-4. **Images**: Publication previews in `assets/img/publication_preview/`
-5. **PDFs**: Papers and slides in `assets/pdf/`
+### Configuration
+- `_config.yml` - Main site configuration (URL, collections, plugins, scholar settings)
+- `_sass/_themes.scss` - Theme colors (modify `--global-theme-color`)
+- `_sass/_variables.scss` - Color variable definitions
 
-### Deployment Pipeline
-- **Trigger**: Push to master/main branch
-- **Build**: Jekyll build with Ruby + Python dependencies
-- **Optimization**: CSS purging via PurgeCSS
-- **Deploy**: Automated GitHub Pages deployment via Actions
+### Plugins (in `_plugins/`)
+- `google-scholar-citations.rb` - Liquid tag for displaying citation counts
+- Custom Ruby plugins for citations, external posts, and asset processing
 
-## Content Management
+## Publications
 
-### Adding Publications
-1. Add BibTeX entry to `_bibliography/papers.bib`
-2. Include metadata fields: `pdf`, `slides`, `poster`, `code`, `preview`, `google_scholar_id`
-3. Add preview image to `assets/img/publication_preview/`
-4. Run `python update_citations.py` to fetch citation counts
+Edit `_bibliography/papers.bib` to add publications. Supported BibTeX fields:
+- `abstract`, `arxiv`, `pdf`, `code`, `slides`, `poster`, `video`, `website`, `blog`
+- `preview` - Thumbnail image filename (place in `assets/img/publication_preview/`)
+- `bibtex_show` - Shows BibTeX button
+- `google_scholar_id` - Required for citation badge display
+- `prefix` - Label like "Preprint" or "Review"
+- `doi` - Digital Object Identifier
 
-### Updating Personal Info
-- Basic info: `_config.yml` (name, email, social links)
-- Detailed CV: `_data/cv.yml` (education, employment, interests)
-- Profile image: `assets/img/prof_pic.jpeg`
+Author highlighting configured in `_config.yml` under `scholar:`:
+```yaml
+scholar:
+  last_name: [Lee]
+  first_name: [Seok-Hyung, S.-H.]
+```
 
-### Managing News/Announcements
-- Add markdown files to `_news/` directory
-- Format: `YYMMDD_brief_title.md` with YAML frontmatter
+## Creating Content
 
-## Technical Notes
+### New News Item
+Create `_news/YYMMDD_title.md` with content. News items display on the about page.
 
-### Jekyll Configuration
-- Uses `kramdown` for Markdown processing
-- Extensive plugin ecosystem for academic features
-- Custom liquid templates for complex layouts
-- Responsive image processing via `jekyll-imagemagick`
+## Deployment
 
-### Styling System
-- SCSS-based theming in `_sass/`
-- Bootstrap foundation with custom academic styling
-- Font Awesome and Tabler icons
-- Color theming via CSS custom properties
+Automatic deployment via GitHub Actions on push to master:
+1. Jekyll builds site
+2. CSS purging removes unused styles
+3. Deploys to `gh-pages` branch
 
-### Performance Features
-- Lazy loading images
-- CSS/JS minification
-- WebP image conversion
-- Progressive enhancement patterns
+## Key Configuration Notes
 
-### Citation Management
-- Automated Google Scholar integration
-- Fallback system for citation counts
-- BibTeX processing with custom filters
-- Publication badges (Google Scholar, etc.)
-
-## Important Files
-
-- `_config.yml` - Main configuration and personal information
-- `_bibliography/papers.bib` - Publication database
-- `_data/cv.yml` - Structured CV information
-- `update_citations.py` - Citation count automation script
-- `.github/workflows/deploy.yml` - Automated deployment configuration
+- Scholar ID: `NURGJAwAAAAJ` (configured in `_config.yml`)
+- Site uses fixed navbar/footer, dark mode enabled
+- Publications sorted by year (most recent first) via jekyll-scholar
+- Google Scholar badge enabled; Altmetric, Dimensions, InspireHEP disabled
