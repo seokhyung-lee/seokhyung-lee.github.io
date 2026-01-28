@@ -1,25 +1,71 @@
-# Fallback citation counts for Google Scholar articles
-# This file is used when Google Scholar API is not accessible (e.g., in GitHub Actions)
-# Format: article_id: citation_count
-# 
-# To update citation counts:
-# 1. Run: python update_citations.py
-# 2. Or manually visit Google Scholar pages and update counts below
-# 
-# Last updated: 2025-12-08
-
-# Citation counts automatically fetched from Google Scholar
-L7CI7m0gUJcC: 1    # 1 citations
-EYYDruWGBe4C: 1    # 1 citations
-vbGhcppDl1QC: 0    # 0 citations
-ML0RJ9NH7IQC: 22    # 22 citations
-p__nRnzSRKYC: 29    # 29 citations
-uWiczbcajpAC: 23    # 23 citations
-epqYDVWIO7EC: 26    # 26 citations
-Z5m8FVwuT1cC: 0    # 0 citations
-zLWjf1WUPmwC: 11    # 11 citations
-uc_IGeMz5qoC: 9    # 9 citations
-9Nmd_mFXekcC: 35    # 35 citations
-nrtMV_XWKgEC: 12    # 12 citations
-t7zJ5fGR-2UC: 3    # 3 citations
-XD-gHx7UXLsC: 10    # 10 citations
+metadata:
+  last_updated: '2026-01-28'
+papers:
+  NURGJAwAAAAJ:9Nmd_mFXekcC:
+    citations: 36
+    title: All-photonic architecture for scalable quantum computing with Greenberger-Horne-Zeilinger states
+    year: '2022'
+  NURGJAwAAAAJ:AvfA0Oy_GE0C:
+    citations: 0
+    title: Method and apparatus for linear optical quantum computing
+    year: '2024'
+  NURGJAwAAAAJ:BUYA1_V_uYcC:
+    citations: 0
+    title: Universal Resource-efficient Topological Measurement-based Quantum Computing
+    year: '2023'
+  NURGJAwAAAAJ:BwyfMAYsbu0C:
+    citations: 0
+    title: "\uC0C9 \uBD80\uD638\uB97C \uD65C\uC6A9\uD55C \uACB0\uD568\uD5C8\uC6A9 \uC591\uC790\uCEF4\uD4E8\uD305"
+    year: '2024'
+  NURGJAwAAAAJ:EYYDruWGBe4C:
+    citations: 1
+    title: Efficient Post-Selection for General Quantum LDPC Codes
+    year: '2025'
+  NURGJAwAAAAJ:L7CI7m0gUJcC:
+    citations: 1
+    title: 'SDQC: Distributed Quantum Computing Architecture Utilizing Entangled Ion Qubit Shuttling'
+    year: '2025'
+  NURGJAwAAAAJ:ML0RJ9NH7IQC:
+    citations: 28
+    title: Low-overhead magic state distillation with color codes
+    year: '2025'
+  NURGJAwAAAAJ:XD-gHx7UXLsC:
+    citations: 9
+    title: Teleportation of a multiphoton qubit using hybrid entanglement with a loss-tolerant carrier qubit
+    year: '2020'
+  NURGJAwAAAAJ:Z5m8FVwuT1cC:
+    citations: 0
+    title: Highly fault-tolerant quantum computing using both discrete and continuous variables of light
+    year: '2023'
+  NURGJAwAAAAJ:epqYDVWIO7EC:
+    citations: 30
+    title: Graph-theoretical optimization of fusion-based graph state generation
+    year: '2023'
+  NURGJAwAAAAJ:nrtMV_XWKgEC:
+    citations: 12
+    title: Universal hardware-efficient topological measurement-based quantum computation via color-code-based cluster states
+    year: '2022'
+  NURGJAwAAAAJ:p__nRnzSRKYC:
+    citations: 36
+    title: Color code decoder with improved scaling for correcting circuit-level noise
+    year: '2025'
+  NURGJAwAAAAJ:t7zJ5fGR-2UC:
+    citations: 3
+    title: Loss-tolerant concatenated Bell-state measurement with encoded coherent-state qubits for long-range quantum communication
+    year: '2021'
+  NURGJAwAAAAJ:uWiczbcajpAC:
+    citations: 26
+    title: Fault-tolerant quantum computation by hybrid qubits with bosonic cat code and single photons
+    year: '2024'
+  NURGJAwAAAAJ:uc_IGeMz5qoC:
+    citations: 9
+    title: Virtual distillation with noise dilution
+    year: '2023'
+  NURGJAwAAAAJ:vbGhcppDl1QC:
+    citations: 1
+    title: Photonic hybrid quantum computing
+    year: '2025'
+  NURGJAwAAAAJ:zLWjf1WUPmwC:
+    citations: 12
+    title: Parity-encoding-based quantum computing with Bayesian error tracking
+    year: '2023'
