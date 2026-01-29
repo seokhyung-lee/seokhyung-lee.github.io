@@ -21,8 +21,8 @@ Currently, I am an Assistant Professor in the _[Department of Quantum Informatio
 
 <div style="text-align: center; margin: 1.5em 0;">
   <div style="display: inline-block; padding: 0.8em 1.5em; border: 2px solid var(--global-theme-color); border-radius: 8px;">
-    <a href="https://skku-qctg.github.io" style="font-size: 1.3em; font-weight: bold;">SKKU Quantum Computing Theory Group</a><br>
-    <b>Contact <a href="seokhyunglee@skku.edu">me</a> if you are interested in joining our group!</b>
+    <h3><strong><a href="https://skku-qctg.github.io">SKKU Quantum Computing Theory Group</a></strong></h3>
+    <strong>Contact <a href="seokhyunglee@skku.edu">me</a> if you are interested in joining our group!</strong>
   </div>
 </div>
 
