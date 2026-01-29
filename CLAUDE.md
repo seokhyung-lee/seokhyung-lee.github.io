@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Overview
 
-This is an academic personal website built with Jekyll using the [al-folio](https://github.com/alshedivat/al-folio) theme. The site is deployed to GitHub Pages at https://seokhyung-lee.github.io.
+This is an academic personal website built with Jekyll using the [al-folio](https://github.com/alshedivat/al-folio) theme (v0.16.3). The site is deployed to GitHub Pages at https://seokhyung-lee.github.io.
 
 **Related Repository:** Group website at `../skku-qctg.github.io` (SKKU Quantum Computing Theory Group)
 
@@ -62,8 +62,8 @@ python bin/update_scholar_citations.py
 - `_sass/_variables.scss` - Color variable definitions
 
 ### Plugins (in `_plugins/`)
-- `google-scholar-citations.rb` - Liquid tag for displaying citation counts
-- Custom Ruby plugins for citations, external posts, and asset processing
+- Custom Ruby plugins for external posts, inspirehep citations, and asset processing
+- Note: `google-scholar-citations.rb` was removed in v0.16.3 (citation display handled differently)
 
 ## Publications
 
