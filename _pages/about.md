@@ -18,7 +18,13 @@ My name is **Seok-Hyung Lee** (**이석형** in Korean), and I am a theoretical 
 My research primarily focuses on developing and optimising **resource-efficient, fault-tolerant quantum computing strategies through quantum error correction (QEC)**. 
 This includes areas such as decoding, logical operations, magic state preparation, syndrome extraction, and code construction. 
 
-Currently, I am an Assistant Professor in the _[Department of Quantum Information Engineering](https://qie.skku.edu/qie/index.do)_ at **[Sungkyunkwan University (SKKU)](https://www.skku.edu/eng/)** in South Korea, where I began in Sep 2025.
+Currently, I am an Assistant Professor in the _[Department of Quantum Information Engineering](https://qie.skku.edu/qie/index.do)_ at **[Sungkyunkwan University (SKKU)](https://www.skku.edu/eng/)** in South Korea, where I began in Sep 2025. I am leading the SKKU Quantum Computing Theory Group.
+
+<div style="text-align: center; margin: 1.5em 0;">
+  <div style="display: inline-block; padding: 0.8em 1.5em; border: 2px solid var(--global-theme-color); border-radius: 8px;">
+    <a href="https://skku-qctg.github.io" style="font-size: 1.25em; font-weight: bold;">SKKU Quantum Computing Theory Group</a>
+  </div>
+</div>
 
 Previously, from Mar 2023 to Sep 2025, I was a postdoc in the _[Quantum Theory Group](https://quantum.sydney.edu.au/research/quantum-theory-group)_ at the **[University of Sydney](https://www.sydney.edu.au)** in Australia, working with Prof. [Stephen D. Bartlett](https://www.sydney.edu.au/science/about/our-people/academic-staff/stephen-bartlett.html) on quantum error correction using 2D color codes.
 
