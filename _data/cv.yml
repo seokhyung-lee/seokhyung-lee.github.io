@@ -34,15 +34,14 @@
       year: 2025 - Present
       description:
         - <a href="https://qie.skku.edu/qie/index.do">Department of Quantum Information Engineering</a>
-        
+
     - title: Postdoctoral Associate
       institution: <a href="https://www.sydney.edu.au">University of Sydney</a>, Sydney, Australia
       year: 2023 - 2025
       description:
         - <a href="https://quantum.sydney.edu.au">Quantum Theory Group</a>, School of Physics
-        - "<b>Mentor</b>: Prof. <a href='https://www.sydney.edu.au/science/about/our-people/academic-staff/stephen-bartlett.html
-'>Stephen D. Bartlett</a>"
-        
+        - "<b>Mentor</b>: Prof. <a href='https://www.sydney.edu.au/science/about/our-people/academic-staff/stephen-bartlett.html'>Stephen D. Bartlett</a>"
+
 - title: Education
   type: time_table
   contents:
