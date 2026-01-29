@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Overview
 
-This is an academic personal website built with Jekyll using the [al-folio](https://github.com/alshedivat/al-folio) theme. The site is deployed to GitHub Pages at https://seokhyung-lee.github.io.
+This is an academic personal website built with Jekyll using the [al-folio](https://github.com/alshedivat/al-folio) theme (v0.16.3). The site is deployed to GitHub Pages at https://seokhyung-lee.github.io.
 
 **Related Repository:** Group website at `../skku-qctg.github.io` (SKKU Quantum Computing Theory Group)
 
@@ -52,9 +52,37 @@ python bin/update_scholar_citations.py
 - `_bibliography/papers.bib` - BibTeX publications database (auto-rendered on publications page)
 - `_news/` - News announcements (markdown files with date prefixes, e.g., `250128_new_paper.md`)
 - `_pages/` - Static pages (about, cv, publications, etc.)
-- `_data/cv.yml` - CV data (fallback when `assets/json/resume.json` not present)
+- `_data/cv.yml` - CV data in RenderCV format (nested under `cv:` key with `sections:`)
 - `_data/citations.yml` - Cached Google Scholar citation counts
 - `_data/coauthors.yml` - Co-author links for publications
+
+### CV Data Format (RenderCV)
+The CV uses RenderCV format in `_data/cv.yml`:
+```yaml
+cv:
+  name: "Full Name"
+  email: email@example.com
+  sections:
+    Experience:
+      - position: "Job Title"
+        name: "Company/Institution"
+        start_date: "2023"
+        end_date: "2025"  # omit for current position
+        highlights:
+          - "Description item 1"
+    Education:
+      - studyType: "PhD in Field"
+        institution: "University Name"
+        start_date: "2017"
+        end_date: "2023"
+        highlights:
+          - "Description"
+    Academic Interests:
+      - name: "Topic Area"
+        keywords:
+          - "Subtopic 1"
+          - "Subtopic 2"
+```
 
 ### Configuration
 - `_config.yml` - Main site configuration (URL, collections, plugins, scholar settings)
@@ -62,8 +90,8 @@ python bin/update_scholar_citations.py
 - `_sass/_variables.scss` - Color variable definitions
 
 ### Plugins (in `_plugins/`)
-- `google-scholar-citations.rb` - Liquid tag for displaying citation counts
-- Custom Ruby plugins for citations, external posts, and asset processing
+- Custom Ruby plugins for external posts, inspirehep citations, and asset processing
+- Note: `google-scholar-citations.rb` was removed in v0.16.3 (citation display handled differently)
 
 ## Publications
 
