@@ -52,9 +52,37 @@ python bin/update_scholar_citations.py
 - `_bibliography/papers.bib` - BibTeX publications database (auto-rendered on publications page)
 - `_news/` - News announcements (markdown files with date prefixes, e.g., `250128_new_paper.md`)
 - `_pages/` - Static pages (about, cv, publications, etc.)
-- `_data/cv.yml` - CV data (fallback when `assets/json/resume.json` not present)
+- `_data/cv.yml` - CV data in RenderCV format (nested under `cv:` key with `sections:`)
 - `_data/citations.yml` - Cached Google Scholar citation counts
 - `_data/coauthors.yml` - Co-author links for publications
+
+### CV Data Format (RenderCV)
+The CV uses RenderCV format in `_data/cv.yml`:
+```yaml
+cv:
+  name: "Full Name"
+  email: email@example.com
+  sections:
+    Experience:
+      - position: "Job Title"
+        name: "Company/Institution"
+        start_date: "2023"
+        end_date: "2025"  # omit for current position
+        highlights:
+          - "Description item 1"
+    Education:
+      - studyType: "PhD in Field"
+        institution: "University Name"
+        start_date: "2017"
+        end_date: "2023"
+        highlights:
+          - "Description"
+    Academic Interests:
+      - name: "Topic Area"
+        keywords:
+          - "Subtopic 1"
+          - "Subtopic 2"
+```
 
 ### Configuration
 - `_config.yml` - Main site configuration (URL, collections, plugins, scholar settings)

@@ -1,61 +1,46 @@
-- title: General Information
-  type: map
-  contents:
-    - name: Full Name
-      value: Seok-Hyung Lee (이석형 in Korean)
-    - name: E-mail
-      value: seokhyunglee(at)skku.edu
-    - name: Google Scholar
-      value: <a href="https://scholar.google.com/citations?user=NURGJAwAAAAJ">Link</a>
-    - name: ORCID
-      value: <a href="https://orcid.org/0000-0002-1207-2752">0000-0002-1207-2752</a>
-    - name: Github
-      value: <a href="https://github.com/seokhyung-lee">seokhyung-lee</a>
-    - name: Nationality
-      value: Republic of Korea
-    - name: Languages
-      value: Korean, English
+cv:
+  name: Seok-Hyung Lee (이석형)
+  email: seokhyunglee@skku.edu
+  website: https://seokhyung-lee.github.io
 
-- title: Academic Interests
-  type: nested_list
-  contents:
-    - title: Quantum information and computation
-      items:
-        - Quantum error correction
-        - Photonic quantum computing
-        - Measurement-based/fusion-based quantum computing
-        - Two-dimensional color codes
+  sections:
+    Experience:
+      - position: Assistant Professor
+        name: <a href="https://www.skku.edu/eng/">Sungkyunkwan University (SKKU)</a>, Suwon, Republic of Korea
+        start_date: "2025"
+        highlights:
+          - <a href="https://qie.skku.edu/qie/index.do">Department of Quantum Information Engineering</a>
 
-- title: Employment
-  type: time_table
-  contents:
-    - title: Assistant Professor
-      institution: <a href="https://www.skku.edu/eng/">Sungkyunkwan University (SKKU)</a>, Suwon, Republic of Korea
-      year: 2025 - Present
-      description:
-        - <a href="https://qie.skku.edu/qie/index.do">Department of Quantum Information Engineering</a>
-        
-    - title: Postdoctoral Associate
-      institution: <a href="https://www.sydney.edu.au">University of Sydney</a>, Sydney, Australia
-      year: 2023 - 2025
-      description:
-        - <a href="https://quantum.sydney.edu.au">Quantum Theory Group</a>, School of Physics
-        - "<b>Mentor</b>: Prof. <a href='https://www.sydney.edu.au/science/about/our-people/academic-staff/stephen-bartlett.html
-'>Stephen D. Bartlett</a>"
-        
-- title: Education
-  type: time_table
-  contents:
-    - title: PhD in Physics
-      institution: <a href="https://www.snu.ac.kr">Seoul National University</a>, Seoul, Republic of Korea
-      year: 2017 - 2023
-      description:
-        - <a href="http://cmqc.snu.ac.kr">Center for Macroscopic Quantum Control</a>, Department of Physics and Astronomy
-        - "<b>Advisor</b>: Prof. <a href='https://physics.snu.ac.kr/hjeong/'>Hyunseok Jeong</a>"
-        - "<b>Thesis</b>: <a href='https://s-space.snu.ac.kr/handle/10371/194330'>Universal Resource-efficient Topological Measurement-based Quantum Computing</a>"
-        - Awarded the <b>BK Excellent Thesis Award</b>
-    - title: Bachelor in Physics
-      institution: <a href="https://www.snu.ac.kr">Seoul National University</a>, Seoul, Republic of Korea
-      year: 2013 - 2017
-      description:
-        - Graduated with Honors (3.89/4.30)
+      - position: Postdoctoral Associate
+        name: <a href="https://www.sydney.edu.au">University of Sydney</a>, Sydney, Australia
+        start_date: "2023"
+        end_date: "2025"
+        highlights:
+          - <a href="https://quantum.sydney.edu.au">Quantum Theory Group</a>, School of Physics
+          - "<b>Mentor</b>: Prof. <a href='https://www.sydney.edu.au/science/about/our-people/academic-staff/stephen-bartlett.html'>Stephen D. Bartlett</a>"
+
+    Education:
+      - studyType: PhD in Physics
+        institution: <a href="https://www.snu.ac.kr">Seoul National University</a>, Seoul, Republic of Korea
+        start_date: "2017"
+        end_date: "2023"
+        highlights:
+          - <a href="http://cmqc.snu.ac.kr">Center for Macroscopic Quantum Control</a>, Department of Physics and Astronomy
+          - "<b>Advisor</b>: Prof. <a href='https://physics.snu.ac.kr/hjeong/'>Hyunseok Jeong</a>"
+          - "<b>Thesis</b>: <a href='https://s-space.snu.ac.kr/handle/10371/194330'>Universal Resource-efficient Topological Measurement-based Quantum Computing</a>"
+          - Awarded the <b>BK Excellent Thesis Award</b>
+
+      - studyType: Bachelor in Physics
+        institution: <a href="https://www.snu.ac.kr">Seoul National University</a>, Seoul, Republic of Korea
+        start_date: "2013"
+        end_date: "2017"
+        highlights:
+          - Graduated with Honors (3.89/4.30)
+
+    Academic Interests:
+      - name: Quantum information and computation
+        keywords:
+          - Quantum error correction
+          - Photonic quantum computing
+          - Measurement-based/fusion-based quantum computing
+          - Two-dimensional color codes

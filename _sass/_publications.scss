@@ -41,10 +41,12 @@
 
       .preview {
         display: inline-block;
+        max-width: 300px;
       }
 
       .abbr {
         margin-bottom: 0.5rem;
+        min-width: 300px;
 
         abbr {
           display: inline-block;
@@ -69,6 +71,20 @@
 
       .title {
         font-weight: bolder;
+
+        .prefix {
+          color: var(--global-text-color);
+          font-weight: normal;
+          margin-right: 0.25rem;
+        }
+
+        a {
+          color: var(--global-theme-color);
+
+          &:hover {
+            color: var(--global-theme-color);
+          }
+        }
       }
 
       .author {
@@ -78,6 +94,15 @@
           &:hover {
             border-bottom-style: solid;
             text-decoration: none;
+          }
+
+          &.group-member {
+            border-bottom: 1px solid;
+            font-style: normal;
+
+            &:hover {
+              color: var(--global-theme-color);
+            }
           }
         }
 
