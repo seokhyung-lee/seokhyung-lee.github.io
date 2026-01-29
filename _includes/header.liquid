@@ -97,13 +97,19 @@
               {% else %}
                 {% assign parent_link = p.permalink | remove: 'index.html' %}
                 <li class="nav-item {% if page.url contains parent_link %}active{% endif %}">
-                  {% if p.permalink contains '/blog/' %}{% assign url = '/blog/' %} {% else %}{% assign url = p.url %}{% endif %}
-                  <a class="nav-link" href="{{ url | relative_url }}">
-                    {{- p.title }}
-                    {% if page.url contains p.url %}
-                      <span class="sr-only">(current)</span>
-                    {% endif %}
-                  </a>
+                  {% if p.external_url %}
+                    <a class="nav-link external" href="{{ p.external_url }}" target="_blank" rel="noopener noreferrer">
+                      {{- p.title }}<i class="ti ti-external-link" style="font-size: 0.7em; margin-left: 0.2em;"></i>
+                    </a>
+                  {% else %}
+                    {% if p.permalink contains '/blog/' %}{% assign url = '/blog/' %} {% else %}{% assign url = p.url %}{% endif %}
+                    <a class="nav-link" href="{{ url | relative_url }}">
+                      {{- p.title }}
+                      {% if page.url contains p.url %}
+                        <span class="sr-only">(current)</span>
+                      {% endif %}
+                    </a>
+                  {% endif %}
                 </li>
               {% endif %}
             {% endif %}

@@ -293,6 +293,15 @@ ul.task-list input[type="checkbox"] {
     &:hover {
       color: var(--global-hover-color);
     }
+
+    &.external,
+    &.external:visited {
+      color: var(--global-text-color) !important;
+
+      &:hover {
+        color: var(--global-theme-color) !important;
+      }
+    }
   }
 
   .navbar-nav .nav-item.active > .nav-link {
