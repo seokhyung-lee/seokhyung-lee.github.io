@@ -4,7 +4,7 @@
 
 title: Seok-Hyung Lee # the website title (if blank, full name will be used instead)
 first_name: Seok-Hyung
-middle_name: 
+middle_name:
 last_name: Lee
 email: SeokHyungLee@skku.edu
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
@@ -87,7 +87,7 @@ keybase_username: # your keybase user name
 lastfm_id: # your lastfm id
 lattes_id: # your ID on Lattes (Brazilian Lattes CV)
 linkedin_username: seok-hyung-lee-431660215 # your LinkedIn user name
-mastodon_username:  # your mastodon instance+username in the format instance.tld/@username
+mastodon_username: # your mastodon instance+username in the format instance.tld/@username
 medium_username: # your Medium username
 orcid_id: 0000-0002-1207-2752 # your ORCID ID
 osf_id: # your OSF ID
@@ -112,7 +112,6 @@ youtube_id: # your youtube channel id (youtube.com/@<youtube_id>)
 zotero_username: # your zotero username
 
 contact_note: "If you are interested in discussing with me, feel free to send me an email: SeokHyungLee@skku.edu"
-  
 
 # -----------------------------------------------------------------------------
 # Analytics and search engine verification
@@ -133,7 +132,7 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 # -----------------------------------------------------------------------------
 
 blog_name: Seok-Hyung Lee Blog # blog_name will be displayed in your blog page
-blog_description: 
+blog_description:
 permalink: /blog/:year/:title/
 lsi: false # produce an index for related posts
 
@@ -364,7 +363,7 @@ filtered_bibtex_keywords:
     website,
     google_scholar_id,
     inspirehep_id,
-    prefix
+    prefix,
   ]
 
 # Maximum number of authors to be shown for each publication (more authors are visible on click)
