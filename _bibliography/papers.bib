@@ -69,15 +69,18 @@
       abstract = {We propose Shuttling-based Distributed Quantum Computing (SDQC), a hybrid architecture that combines the strengths of physical qubit shuttling and distributed quantum computing to enable scalable trapped-ion quantum computing. SDQC performs non-local quantum operations by distributing entangled ion qubits via deterministic shuttling, combining the high-fidelity and deterministic operations of shuttling-based architectures with the parallelism and pipelining advantages of distributed quantum computing. We present (1) a practical architecture incorporating quantum error correction (QEC), (2) pipelining strategies to exploit parallelism in entanglement distribution and measurement, and (3) a performance evaluation in terms of logical error rate and clock speed. For a 256-bit elliptic-curve discrete logarithm problem (ECDLP) instance, which requires 2,871 logical qubits at code distance 13, SDQC achieves a logical error rate which is 1.20+0.94−0.45×10−8 of Photonic DQC error rate and 3.79+5.09−2.84×10−3 of Quantum Charge-Coupled Device (QCCD) error rate, while providing 2.82 times faster logical clock speed than QCCD.}
 }
 
-@misc{lee2025efficient,
-      title={Efficient Post-Selection for General Quantum LDPC Codes}, 
+@article{lee2025efficient,
+      title={Efficient Post-Selection for General Quantum LDPC Codes},
       author={Seok-Hyung Lee and Lucas English and Stephen D. Bartlett},
-      year={2025},
-      month={Oct},
-      eprint={2510.05795},
-      archivePrefix={arXiv},
-      primaryClass={quant-ph},
-      url={https://arxiv.org/abs/2510.05795}, 
+      journal = {npj Quantum Information},
+      volume = {12},
+      number = {1},
+      pages = {96},
+      year={2026},
+      month={Apr},
+      publisher = {Springer Science and Business Media LLC},
+      doi = {10.1038/s41534-026-01242-x},
+      url={https://www.nature.com/articles/s41534-026-01242-x},
       bibtex_show = {true},
       arxiv = {2510.05795},
       google_scholar_id = {EYYDruWGBe4C},
@@ -85,7 +88,6 @@
       preview = {lee2025efficient.png},
       selected = {true},
       note = {[>100 scites](https://scirate.com/arxiv/2510.05795)},
-      prefix = {Preprint},
       abstract = {Post-selection strategies that discard low-confidence computational results can significantly improve the effective fidelity of quantum error correction at the cost of reduced acceptance rates, which can be particularly useful for offline resource state generation. Prior work has primarily relied on the "logical gap" metric with the minimum-weight perfect matching decoder, but this approach faces fundamental limitations including computational overhead that scales exponentially with the number of logical qubits and poor generalizability to arbitrary codes beyond surface codes. We develop post-selection strategies based on computationally efficient heuristic confidence metrics that leverage error cluster statistics (specifically, aggregated cluster sizes and log-likelihood ratios) from clustering-based decoders, which are applicable to arbitrary quantum low-density parity check (QLDPC) codes. We validate our method through extensive numerical simulations on surface codes, bivariate bicycle codes, and hypergraph product codes, demonstrating orders of magnitude reductions in logical error rates with moderate abort rates. For instance, applying our strategy to the [[144,12,12]] bivariate bicycle code achieves approximately three orders of magnitude reduction in the logical error rate with an abort rate of only 1% (19%) at a physical error rate of 0.1% (0.3%). Additionally, we integrate our approach with the sliding-window framework for real-time decoding, featuring early mid-circuit abort decisions that eliminate unnecessary overheads. Notably, its performance matches or even surpasses the original strategy for global decoding, while exhibiting favorable scaling in the number of rounds. Our approach provides a practical foundation for efficient post-selection in fault-tolerant quantum computing with QLDPC codes.}
 }
 
