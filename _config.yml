@@ -221,12 +221,14 @@ kramdown:
 # Includes & excludes
 include: ["_pages"]
 exclude:
+  - assets/img/publication_preview/drouet2026error.source.md
   - bin/
   - CONTRIBUTING.md
   - CUSTOMIZE.md
   - Dockerfile
   - docker-compose.yml
   - docker-compose-slim.yml
+  - docs/exec-plans/
   - FAQ.md
   - Gemfile
   - Gemfile.lock
